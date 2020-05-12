@@ -2,36 +2,53 @@
 
 /* ------------------------------ Colours */
 
+.bg-color-navbar{
+    background-color:rgb(142, 189, 155);   #rgb(142, 189, 155);
+}
+
+.navbar-toggler-icon{
+    background-color: red;
+}
+
 .ui-menu-color-home{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
+    color: #727272;  
 }
 
 .ui-menu-color-bar{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
 }
 
 .ui-menu-color-restaurant{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
 }
 
 .ui-menu-color-venue{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
 }
 
 .ui-menu-color-joinus{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
 }
 
 .ui-menu-color-download{
-    background-color: rgb(50, 83, 59);
+    background-color: rgb(142, 189, 155);
 }
 
 .bg-color-name-description-slogan{
-    background-color: #727272;      //#136f28
+    background-color: #b1aeae;       //#136f28
 }
 
 .bg-color-contact-details{
-    background-color: #727272;   
+    background-color: #b1aeae;   //727272
+}
+
+.bg-color{
+    background-color: #b1aeae; 
+}
+
+.navbar-toggler{
+    background-color: #0000000
 }
 
 /* ------------------------------ Special padings/margins/text */
@@ -48,6 +65,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fafafa;
+    text-align: center;
 }
 
 .inline-block{
@@ -59,6 +77,16 @@ h1,h2,h3,h4,h5,h6{
     margin-right: 33%; 
 }
 
+.bottom{                                //Stack Overflow (https://stackoverflow.com/questions/45410467/how-to-align-element-to-bottom-in-a-bootstrap-column)
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fa-align-center{
+    vertical-align: center;
+}
+
 /* ------------------------------ Heading */
 
 header{
@@ -67,7 +95,7 @@ header{
 
 
 .heading{
-    margin-left: 50px;
+    
 }
 
 .contact{
@@ -99,8 +127,7 @@ header{
     font-weight: 100;
     font-size: 35px;
     margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%; 
+    text-align: center;
     color: #fff;
 }
 
@@ -119,8 +146,7 @@ header{
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
     color: #fafafa;
 }
 
@@ -130,6 +156,7 @@ header{
 
 .menucontainer{
     font-size:0;
+    padding-bottom: 0%;
 }
 
 #nav li{
@@ -139,7 +166,6 @@ header{
 
 .menuitem{
     height: 120px;
-    text-align: center;
     padding: 0;
 }
 
@@ -147,7 +173,7 @@ header{
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 80px;
 }
 
 .menuitem a i{
@@ -163,9 +189,10 @@ header{
     width: 100%;
     padding-top: 5px;
     text-align: center;
+    align-items: center;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 100;
     letter-spacing: 2px;
     padding-bottom: 5px;
 }
@@ -179,20 +206,50 @@ header{
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 80px;
+    align-items: center;
+}
+
+.page-details-text{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px
 }
 
 /* ------------------------------ Footer */ 
 
 footer{
-    background-color: #727272;
-    font: #fff;
+    background-color: rgb(142, 189, 155);              //#b1aeae;   //727272
     min-height: 120px;
     margin:0;
+}
+
+.footer-text{
+    color: #111111;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contacts-text-footer{                                                                         
+    font-family: "Montserrat", sans-serif;
+    color: #fafafa;
 }
 
 .social-links{
     padding-bottom: 15px; 
 }
+
+.social-links-footer{
+    padding-bottom: 15px; 
+}
+
+.social-links-footer-placement{
+    margin-left: 400px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+
 
 .social-links li a i{
     width: 48px;
