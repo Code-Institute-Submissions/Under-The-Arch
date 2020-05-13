@@ -4,10 +4,11 @@
 
 .bg-color-navbar{
     background-color:rgb(142, 189, 155);   #rgb(142, 189, 155);
+    min-height: 50px; 
 }
 
 .navbar-toggler-icon{
-    background-color: red;
+    background-color: #727272;
 }
 
 .ui-menu-color-home{
@@ -47,14 +48,18 @@
     background-color: #b1aeae; 
 }
 
-.navbar-toggler{
-    background-color: #0000000
+.icon-bar{
+    border:1px solid orange;
 }
 
 /* ------------------------------ Special padings/margins/text */
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
+}
+
+.color-name-description-slogan{
+    text-align:center;
 }
 
 .uppercase{                                                                     /* POSSIBLY REMOVE THIS SECTION */
@@ -119,6 +124,7 @@ header{
     font-size: 55px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
     color: #fff;
 }
 
@@ -219,19 +225,33 @@ header{
 /* ------------------------------ Footer */ 
 
 footer{
-    background-color: rgb(142, 189, 155);              //#b1aeae;   //727272
+    background-color: rgb(142, 189, 155);              /* #b1aeae;   //727272 */
     min-height: 120px;
-    margin:0;
 }
 
 .footer-text{
+    font-family: "Montserrat", sans-serif;
     color: #111111;
     font-size: 15px;
     text-align: center;
+    vertical-align: center;
 }
 
-.contacts-text-footer{                                                                         
+contacts-text-footer{                                                                         
     font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    color: #fafafa;
+}
+
+contacts-text{                                                                         
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     color: #fafafa;
 }
 
