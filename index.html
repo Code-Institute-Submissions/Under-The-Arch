@@ -47,10 +47,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
-            <!-- <li class="active nav-item mr-2 hvr-grow">
-              <a class="nav-link" href="/">Home</a>
-            </li> -->
-            <li class="active nav-item mr-2 hvr-float-shadow">
+            <li class="active nav-item mr-2 hvr-grow">
+              <a class="nav-link" href="/home"></a>
+            </li>
+            <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/bar">Bar</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
@@ -78,7 +78,7 @@
         </p>
 
         <button
-          class="btn btn-info"
+          class="btn btn-info d-none d-lg-block"
           data-toggle="modal"
           data-target="#signUpModal"
         >
@@ -101,10 +101,17 @@
             <h1 class="name margin">
               <strong> Under The Arch </strong><i class="fas fa-archway"></i>
             </h1>
-            <br /><br />
+            <br />
             <h2 class="description">
               Bar / Restaurant / Venue<br />Brewery 'n' Distillery
             </h2>
+            <button
+              class="btn btn-info d-block d-md-none signupbuttoncentre"
+
+              data-toggle="modal"
+              data-target="#signUpModal"
+            >
+              Sign Up!</button><br />
             <br />
             <h3 class="contacts-text"><strong>Contact Us:</strong></h3>
             <h4 class="contacts-text">
@@ -166,18 +173,18 @@
           <p class="page-details-text">
             <strong>Established over 150 years ago </strong> and staying within
             the family through the generations, we went from coach-house to
-            small hotel and now in our 6th generation, to our current
-            incarnation of an award winning bar, restaurant and brewery /
+            small hotel and now into our 6th generation and our current
+            incarnation of award winning bar, restaurant and brewery /
             distillery as well as an entertainment hotspot with overnight
             accomodation and a great breakfast.
           </p>
 
           <p class="page-details-text">
             Whether it's drinks on the edge of town after a tough week, a few
-            leisurely measures to help shift those midweek blues or an escape
-            for the weekend, for food with family & friends, a tour of our
-            widely acclaimed brewery / distillery or a night catching the latest
-            music acts & DJ's or being amazed with the shows in our theatre, the
+            leisurely measures to help shift those midweek blues, an escape for
+            the weekend, food with family & friends, a tour of our widely
+            acclaimed brewery / distillery or a night catching the latest music
+            acts & DJ's or being amazed with the shows in our theatre, the
             options are many, the choice is
             <strong>... YOURS</strong>.
           </p>
@@ -192,7 +199,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">
-              Sign Up with Under The Arch <i class="fas fa-archway"></i>
+              Sign Up with 'Under The Arch' <i class="fas fa-archway"></i>
             </h5>
             <button
               type="button"
@@ -206,36 +213,33 @@
           <div class="modal-body">
             <form>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1"><strong>Email address</strong></label>
                 <input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Enter email" required
                 />
                 <small id="emailHelp" class="form-text text-muted"
                   >We'll never share your email with anyone else.</small
                 >
               </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="form-group">
-                <label for="repeatPassword">Repeat Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="repeatPassword"
-                  placeholder="Repeat Password"
-                />
-              </div>
+                <label for="entertainment sign-up-choice-color"><strong>Select the information you would like us to provide</strong></label><br>
+                <div class="form-group">
+
+                <label for="general">General</label>
+                <input type="radio" name=general_preference id="general" value="general" required>  
+
+                <label for="bar/restaurant">Bar/Restaurant</label>
+                <input type="radio" name=bar_restaurant_preference id="bar_restaurant" value="bar_restaurant">  
+
+                <label for="brewdistil">Brewery 'n' Distillery</label>
+                <input type="radio" name=brew_distil_preference id="brew_distil" value="brew_distil">
+
+                <label for="venue">Venue</label>
+                <input type="radio" name=venue_preference id="venue" value="venue"><br>
+
               <button type="submit" class="btn btn-info">Submit</button>
             </form>
           </div>
@@ -437,6 +441,5 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-  
   </body>
 </html>
