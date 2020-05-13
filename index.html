@@ -20,46 +20,117 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css"
+    >
     <title>Under The Arch</title>
   </head>
   <body>
-    <nav class="navbar navbar-top-color navbar-expand-sm bg-color-navbar">
-        <a href="/" class="navbar-brand hvr-grow">Under The Arch <i class="fas fa-archway"></i></a>
+  <header>
 
-        <button class="navbar-toggler ml-auto navbar-toggler-color" type="button" data-toggle="collapse" data-target="#navbarNavDropDown" 
-        aria-controls="navbarNavDropDown" aria-expanded="false" aria-label="Toggle navigation"><span 
-        class="navbar-toggler-icon"></span></button>
+  <!-- NAVBAR -->
+    <!-- <header>-->                                                            
+    <!-- <div class="container"></div> -->
+      <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm">
+      <!-- <nav class="navbar navbar-top-color navbar-expand-sm bg-color-navbar"> -->
+        <a href="/" class="navbar-brand"
+          >Under The Arch <i class="fas fa-archway"></i
+        ></a>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+        <button
+          class="navbar-toggler ml-auto navbar-toggler-color"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
 
-        <ul class="navbar nav mr-auto">
-        <li class="active nav-item mr-2 hvr-float-shadow"><a class="nav-link" href="/">Bar</a></li>
-        <li class="active nav-item mr-2 hvr-float-shadow"><a class="nav-link" href="/">Restaurant</a></li>
-        <li class="active nav-item mr-2 hvr-float-shadow"><a class="nav-link" href="/">Brewery 'n' Distillery</a></li>
-        <li class="active nav-item mr-2 hvr-float-shadow"><a class="nav-link" href="/">Venue</a></li>     
-        <li class="active nav-item mr-2 hvr-float-shadow"><a class="nav-link" href="/">Download Events</a></li>
-        </ul>   
-        </div>
-        <p class="navbar-text my-auto mr-2"><i>Change of pace in this Idyllic Place!</i></p> 
-        <a href="/" signup>Sign Up</a>
-    </nav>
-      <header>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="active nav-item mr-2 hvr-grow">
+              <a class="nav-link" href="/">Home</a>
+            </li> -->
+            <li class="active nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="/bar">Bar</a>
+            </li>
+            <li class="nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="/restaurant">Restaurant</a>
+            </li>
+            <li class="nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="/brewdistil">Brewery 'n' Distillery</a>
+            </li>
+            <li class="nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="/venue">Venue</a>
+            </li>
+            <li class=" nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="/dl-events">Download Events</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="Whiskeys"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Irish</a>           
+            </li> -->
+          </ul>
+
+
+
+        
+        <p class="navbar-text my-auto mr-2">
+          <i>Change of pace in this Idyllic Place!</i>
+        </p>
+
+        <!-- <p>  -->
+          <button class="btn btn-info"
+            data-toggle="modal"
+            data-target="#signUpModal"
+          >
+            Sign Up!
+          </button>
+        <!-- </p> -->
+      </nav>
+      </div>
+
+    <!-- LOGO -->
+
       <div class="row no-gutters">
         <a class="col-sm-8 logo" href="index.html"></a>
-        <div class="row col-sm-4 no-gutters bg-color-name-description-slogan">
-          <div class="col heading">                    <!--- Figure out what this line does???? -->
-            <h1 class="name margin">Under The Arch <i class="fas fa-archway"></i></h1><br><br>
-            <h2 class="description">Bar / Restaurant / Venue<br>Brewery 'n' Distillery</h2><br>
+
+    <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->    
+
+        <div class="row col-sm-4 no-gutters bg-color-name-description-slogan color-name-description-slogan">
+          <div class="col heading">
+            <!--- Figure out what this line does???? -->
+            <h1 class="name margin">
+              Under The Arch <i class="fas fa-archway"></i>
+            </h1>
+            <br /><br />
+            <h2 class="description">
+              Bar / Restaurant / Venue<br />Brewery 'n' Distillery
+            </h2>
+            <br />
             <h3 class="contacts-text"><strong>Contact Us:</strong></h3>
-            <h4 class="contacts-text"><strong>Phone:</strong><em> 041-6800000</em></h4>
-            <h4 class="contacts-text"><strong>Email:</strong><em> info@underthearch.ie</em></h4>
+            <h4 class="contacts-text">
+              <strong>Phone:</strong><em> 041-6800000</em>
+            </h4>
+            <h4 class="contacts-text">
+              <strong>Email:</strong><em> info@underthearch.ie</em>
+            </h4>
             <br>
-            <h5 class="uppercase general-sub contacts-text follow-us-placement"><strong>Follow Us</strong></h5>
+            <br>
+            <h5 class="uppercase general-sub contacts-text follow-us-placement">
+              <strong>Follow Us</strong>
+            </h5>
             <ul class="list-inline social-links contacts-text">
               <li class="list-inline-item">
                 <a target="_blank" href="#">
-                  <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
+                  <i
+                    class="fab fa-facebook-square fa-4x"
+                    aria-hidden="true"
+                  ></i>
                   <span class="sr-only">Facebook</span>
                 </a>
               </li>
@@ -82,133 +153,90 @@
                 </a>
               </li>
             </ul>
-            <br>
+            <br />
           </div>
         </div>
-        <!-- <div class="col-sm-2 bg-color-contact-details no-gutters"> CONTACT
-          <h4 class="contacts-text"><strong><em>Contact Us:</em></strong></h4>
-          <br>
-          <h4 class="contacts-text"><strong>Phone:</strong><em> 042-9800000</em></h4>
-          <br>
-          <h4 class="contacts-text"><strong>Email:</strong><em> info@underthearch.ie</em></h4>
-          <br>
-          <div class="col">
-            <h5 class="uppercase general-sub contacts-text follow-us-placement"><strong>Follow Us</strong></h5>
-            <ul class="list-inline social-links contacts-text">
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Tripadvisor</span>
-                </a>
-              </li>
-            </ul>
-            <br>
-            <button type="button" class="btn btn-info sm-button-padding" data-toggle="modal" data-target="#signUpModal">Sign Up</button>  -->  <!--- MODAL BUTTON-->
-          </div>
-        </div>
+
+        <!--- MODAL BUTTON-->
+        
       </div>
+      <!-- </div>
+      </div> -->
       <div class="row no-gutters">
         <div class="col">
-         <!--  <ul id="nav" class="list-inline menucontainer">
-            <li
-              class="col-2 col-sm2 ui-menu-color-home list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><i class="fas fa-home"></i><span>Home</span
-                ><i class="fas fa-home"></i
-              ></a>
-            </li>
-            <li
-              class="col-3 col-sm2 ui-menu-color-bar list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><i class="fas fa-glass-cheers"></i><span>Bar</span
-                ><i class="fas fa-beer"></i
-              ></a>
-            </li>
-            <li
-              class="col-3 col-sm2 ui-menu-color-restaurant list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><i class="fas fa-coffee"></i><span>Restaurant</span
-                ><i class="fas fa-utensils"></i
-              ></a>
-            </li>
-            <li
-              class="col-3 col-sm2 ui-menu-color-venue list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><i class="fas fa-music"></i><span>Venue</span
-                ><i class="fas fa-theater-masks"></i
-              ></a>
-            </li>
-            <li
-              class="col-2 col-sm2 ui-menu-color-joinus list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><i class="far fa-handshake"></i><span>Join Us</span
-                ><i class="far fa-handshake"></i
-              ></a>
-            </li>
-             <li
-              class="col-3 col-sm2 ui-menu-color-download list-inline-item menuitem"
-            >
-              <a href="#" class="hvr-float-shadow"
-                ><br><span>Download</span><br><span>Events</span>
-                <i class="fas fa-download"></i
-              ></a>
-            </li>
-          </ul>  -->
-        <div class="row no-gutters bg-color">
-         <div class="col">
-          <h4 class="uppercase general-sub page-details-text">
-            <strong>About Us</strong>
-          </h4>
-          <p class="page-details-text">
-            <strong>Established over 150 years ago </strong> and staying within
-            the family through the generations, we went from coach-house to
-            small hotel and now in our 6th generation, to our current
-            incarnation of an award winning bar, restaurant and brewery /
-            distillery as well as an entertainment hotspot with overnight
-            accomodation and a great breakfast.
-          </p>
 
-          <p class="page-details-text">
-            Whether it's drinks on the edge of town after a tough week, a few
-            leisurely measures to help shift those midweek blues or an escape
-            for the weekend, for food with family & friends, a tour of our
-            widely acclaimed brewery / distillery or a night catching the latest
-            music acts & DJ's or being amazed with the shows in our theatre, the
-            options are many, the choice is <strong>... YOURS</strong>.</p>
-          <br>
+</header>
+
+<section>
+
+    <!-- ABOUT US -->
+
+          <div class="row no-gutters bg-color">
+            <div class="col">
+              <h4 class="uppercase general-sub page-details-text">
+                <strong>About Us</strong>
+              </h4>
+              <p class="page-details-text">
+                <strong>Established over 150 years ago </strong> and staying
+                within the family through the generations, we went from
+                coach-house to small hotel and now in our 6th generation, to our
+                current incarnation of an award winning bar, restaurant and
+                brewery / distillery as well as an entertainment hotspot with
+                overnight accomodation and a great breakfast.
+              </p>
+
+              <p class="page-details-text">
+                Whether it's drinks on the edge of town after a tough week, a
+                few leisurely measures to help shift those midweek blues or an
+                escape for the weekend, for food with family & friends, a tour
+                of our widely acclaimed brewery / distillery or a night catching
+                the latest music acts & DJ's or being amazed with the shows in
+                our theatre, the options are many, the choice is
+                <strong>... YOURS</strong>.
+              </p>
+              <br />
+            </div>
           </div>
+    </section>
+
+            <!--- // MODAL BUTTON CODE -->          
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up with Under The Arch <i class="fas fa-archway"></i
+        ></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        </div>
-      </div>
-    </header>
-    <section></section>
+    </div>
+
+    <!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
 
     <footer class="container-fluid">
       <div id="footer" class="row">
-<!---        <div class="col-sm-3">
+        <!---        <div class="col-sm-3">
           <h4 class="uppercase general-sub">
             <strong><center>About Us</center></strong>
           </h4>
@@ -301,39 +329,42 @@
             Please sign-up or follow us on social media to keep up to date with
             who is coming soon.</p4
           >
-        </div>
-      </div> -->
+        </div> -->
+      </div>
+        <div class="row">
+          <div class="col">
+      <a href="/" class="footer-text"
+        ><strong
+          >The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000 Email:
+          info@underthearch.ie</strong></a><br><ul class="list-inline social-links contacts-text social-links li a i text-center">
+          <!-- info@underthearch.ie</strong></a><ul class="list-inline social-links contacts-text social-links-footer-placement"> -->
+        <li class="list-inline-item">
+          <a target="_blank" href="#">
+            <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
+            <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="#">
+            <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="#">
+            <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a target="_blank" href="#">
+            <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
+            <span class="sr-only">Tripadvisor</span>
+          </a>
+        </li>
+      </ul>
 
-      <a href="/" class="footer-text"><br><strong>The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000 Email: info@underthearch.ie</strong></a>
-                  <ul class="list-inline social-links contacts-text social-links-footer-placement">
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Tripadvisor</span>
-                </a>
-              </li>
-            </ul>
-
-
-    <!-- <span class="badge badge-pill badge-info">The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000 Email: info@underthearch.ie <br>
+      <!-- <span class="badge badge-pill badge-info">The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000 Email: info@underthearch.ie <br>
                 <ul class="list-inline social-links contacts-text">
               <li class="list-inline-item">
                 <a target="_blank" href="#">
@@ -360,32 +391,19 @@
                 </a>      
                   </li>
                 </ul></span>
-            </div> -->
+            </div> -->    
 
-            
-        </footer>
-<div class="modal" tabindex="-1" role="dialog" id="#signUpModal">                            <!--- MODAL BUTTON CODE-->
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-        </footer>
+
+
+    
+    <!-- </footer> -->
     Under The Arch - *** Site under construction ***
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+  
+  </footer>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+  </body>
 </html>
