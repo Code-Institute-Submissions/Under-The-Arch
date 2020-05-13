@@ -51,7 +51,11 @@
 }
 
 .icon-bar{
-    border:1px solid orange;
+    border:1px #17A2B8;
+}
+
+.sign-up-choice-color{
+    font: #17A2B8;
 }
 
 /* ------------------------------ Special padings/margins/text */
@@ -93,6 +97,16 @@ h1,h2,h3,h4,h5,h6{
 .fa-align-center{
     vertical-align: center;
 }
+
+.signupsmall{
+    text-align: center;
+}
+
+.signupbuttoncentre{
+    text-align: center;
+    margin: 0;
+}
+
 
 /* ------------------------------ Heading */
 
