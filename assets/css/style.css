@@ -4,7 +4,9 @@
 
 .bg-color-navbar{
     background-color:rgb(142, 189, 155);   #rgb(142, 189, 155);
-    min-height: 50px; 
+    min-height: 45px;
+    max-height: 60px;
+
 }
 
 .navbar-toggler-icon{
@@ -226,15 +228,23 @@ header{
 
 footer{
     background-color: rgb(142, 189, 155);              /* #b1aeae;   //727272 */
-    min-height: 120px;
+}
+
+.footer-margins{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 45px;
+    max-height: 60px;
 }
 
 .footer-text{
     font-family: "Montserrat", sans-serif;
     color: #111111;
     font-size: 15px;
+    font-weight: 200;
     text-align: center;
-    vertical-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 contacts-text-footer{                                                                         
@@ -255,21 +265,9 @@ contacts-text{
     color: #fafafa;
 }
 
-.social-links{
-    padding-bottom: 15px; 
+.social-links-text{
+    padding-bottom: 5px; 
 }
-
-.social-links-footer{
-    padding-bottom: 15px; 
-}
-
-.social-links-footer-placement{
-    margin-left: 400px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-
-
 
 .social-links li a i{
     width: 48px;
@@ -277,9 +275,6 @@ contacts-text{
     padding: 12px 0;
     border-radius: 50%;
     font-size: 20px;
-    line-height: 11px;
-    margin-left: 20%;
-    margin-right: 20%;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -289,6 +284,17 @@ contacts-text{
     -o-transition: all .35s ease-in-out;
 }
 
-#footer-details{
+footer-details{
     padding: 20px;
+}
+
+.footer-format-all{
+    font-family: "Mukta", sans-serif;
+    color: #111111;
+    font-size: 15px;
+    text-align: centre;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-decoration: none;
+    max-height: 50px;
 }
