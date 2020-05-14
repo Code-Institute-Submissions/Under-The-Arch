@@ -28,13 +28,12 @@
       <!-- NAVBAR -->
 
       <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm">
-        <!-- <nav class="navbar navbar-top-color navbar-expand-sm bg-color-navbar"> -->
         <a href="/" class="navbar-brand"
           ><strong>Under The Arch</strong> <i class="fas fa-archway"></i
         ></a>
 
         <button
-          class="navbar-toggler ml-auto navbar-toggler-color"
+          class="navbar-toggler ml-auto navbar-toggler-color d-md-none"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -44,7 +43,6 @@
         >
           <span class="navbar-toggler-icon icon-bar"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
             <li class="active nav-item mr-2 hvr-grow">
@@ -65,102 +63,80 @@
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/dl-events">Download Events</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="Whiskeys"></a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Irish</a>           
-            </li> -->
           </ul>
         </div>
-
-        <p class="navbar-text my-auto mr-2">
-          <i>Change of pace in this Idyllic Place!</i>
-        </p>
-
-        <button
-          class="btn btn-info d-none d-lg-block"
-          data-toggle="modal"
-          data-target="#signUpModal"
-        >
-          Sign Up!
-        </button>
       </nav>
-
-      <!-- LOGO -->
-
-      <div class="row no-gutters">
-        <a class="col-sm-8 logo" href="index.html"></a>
-
-        <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
-
-        <div
-          class="row col-sm-4 no-gutters bg-color-name-description-slogan color-name-description-slogan"
-        >
-          <div class="col heading">
-            <!--- Figure out what this line does???? -->
-            <h1 class="name margin">
-              <strong> Under The Arch </strong><i class="fas fa-archway"></i>
-            </h1>
-            <br />
-            <h2 class="description">
-              Bar / Restaurant / Venue<br />Brewery 'n' Distillery
-            </h2>
-            <button
-              class="btn btn-info d-block d-md-none signupbuttoncentre"
-
-              data-toggle="modal"
-              data-target="#signUpModal"
-            >
-              Sign Up!</button><br />
-            <br />
-            <h3 class="contacts-text"><strong>Contact Us:</strong></h3>
-            <h4 class="contacts-text">
-              <strong>Phone:</strong><em> 041-6800000</em>
-            </h4>
-            <h4 class="contacts-text">
-              <strong>Email:</strong><em> info@underthearch.ie</em>
-            </h4>
-            <br />
-            <br />
-            <h5 class="uppercase general-sub contacts-text follow-us-placement">
-              <strong>Follow Us</strong>
-            </h5>
-            <ul class="list-inline social-links contacts-text">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com">
-                  <i
-                    class="fab fa-facebook-square fa-4x"
-                    aria-hidden="true"
-                  ></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com">
-                  <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://twitter.com">
-                  <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.tripadvisor.com">
-                  <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Tripadvisor</span>
-                </a>
-              </li>
-            </ul>
-            <br />
-          </div>
-        </div>
-
-        <!--- MODAL BUTTON-->
-      </div>
     </header>
+
+    <!-- LOGO -->
+
+    <div class="row no-gutters">
+      <a class="col-md-8 logo" href="index.html"></a>
+
+      <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
+
+      <div
+        class="row col-sm-4 no-gutters bg-color-name-description-slogan text-center"
+      >
+        <div class="col">
+          <br />
+          <h2 class="description">
+            Bar / Restaurant / Venue<br />Brewery 'n' Distillery
+          </h2>
+          <h1 class="name margin">
+            <strong> Under The Arch </strong><i class="fas fa-archway"></i>
+            <!-- <i>Change of pace in this Idyllic Place!</i> -->
+          </h1>
+
+          <h3 class="contacts-text"><strong>Contact Us:</strong></h3>
+          <h4 class="contacts-text">
+            <strong>Phone:<em> 041-6800000</em></strong>
+          </h4>
+          <h4 class="contacts-text">
+            <strong>Email:<em> info@underthearch.ie</em></strong>
+          </h4>
+          <br />
+          <button
+            class="btn btn-info page-details-text"
+            data-toggle="modal"
+            data-target="#signUpModal"
+          >
+            Sign Up!</button
+          ><br />
+          <br />
+          <h5 class="uppercase general-sub contacts-text follow-us-placement">
+            <strong>Follow Us</strong>
+          </h5>
+          <ul class="list-inline social-links contacts-text">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com">
+                <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com">
+                <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.tripadvisor.com">
+                <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
+                <span class="sr-only">Tripadvisor</span>
+              </a>
+            </li>
+          </ul>
+          <br />
+        </div>
+      </div>
+    </div>
 
     <section>
       <!-- ABOUT US -->
@@ -191,9 +167,10 @@
           <br />
         </div>
       </div>
-    </section>
 
-    <!--- // MODAL BUTTON CODE -->
+
+    <!--- // SIGN-UP FORM (MODAL) CODE -->
+    
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -213,40 +190,69 @@
           <div class="modal-body">
             <form>
               <div class="form-group">
-                <label for="exampleInputEmail1"><strong>Email address</strong></label>
+                <label for="exampleInputEmail1"
+                  ><strong>Email address</strong></label
+                >
                 <input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email" required
+                  placeholder="Enter email"
+                  required
                 />
                 <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
+                  >Your email address will not be shared.</small
                 >
               </div>
-                <label for="entertainment sign-up-choice-color"><strong>Select the information you would like us to provide</strong></label><br>
-                <div class="form-group">
+              <label for="entertainment sign-up-choice-color"
+                ><strong
+                  >Select the information you would like us to provide</strong
+                ></label
+              ><br />
 
-                <label for="general">General</label>
-                <input type="radio" name=general_preference id="general" value="general" required>  
+              <label for="general">General</label>
+              <input
+                type="radio"
+                name="general_preference"
+                id="general"
+                value="general"
+                required
+              />
 
-                <label for="bar/restaurant">Bar/Restaurant</label>
-                <input type="radio" name=bar_restaurant_preference id="bar_restaurant" value="bar_restaurant">  
+              <label for="bar/restaurant">Bar/Restaurant</label>
+              <input
+                type="radio"
+                name="bar_restaurant_preference"
+                id="bar_restaurant"
+                value="bar_restaurant"
+              />
 
-                <label for="brewdistil">Brewery 'n' Distillery</label>
-                <input type="radio" name=brew_distil_preference id="brew_distil" value="brew_distil">
+              <label for="brewdistil">Brewery 'n' Distillery</label>
+              <input
+                type="radio"
+                name="brew_distil_preference"
+                id="brew_distil"
+                value="brew_distil"
+              />
 
-                <label for="venue">Venue</label>
-                <input type="radio" name=venue_preference id="venue" value="venue"><br>
+              <label for="venue">Venue</label>
+              <input
+                type="radio"
+                name="venue_preference"
+                id="venue"
+                value="venue"
+              /><br />
 
+              <button type="reset" class="btn btn-info">Reset</button>
               <button type="submit" class="btn btn-info">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-
+    </section>
+    
     <!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
 
     <!---        <div class="col-sm-3">
@@ -345,79 +351,48 @@
         </div> -->
 
     <footer class="container-fluid">
-      <!-- <div id="footer" class="row"> -->
       <div class="row">
         <div class="col">
-          <a href="/" class="footer-margins footer-text"
-            ><strong
-              ><p class="text-center">
-                <strong
-                  >The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000
-                  Email: info@underthearch.ie</strong
-                >
-              </p></strong
-            ></a
+          <a href="/" class="footer-margins footer-text">
+            <ul style="list-style-type: none;">
+              <strong
+                ><p class="text-center">
+                  <!-- UL LIST WITHOUT BULLETS: https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets -->
+                  <li>The Cross, Riverwalk, Ardee, Co.Louth</li>
+                  <li>Phone: 042-9800000 Email: info@underthearch.ie</li>
+                </p></strong
+              >
+            </ul></a
           >
-          <ul class="list-inline social-links footer-text">
-            <!-- info@underthearch.ie</strong></a><ul class="list-inline social-links contacts-text social-links-footer-placement"> -->
+
+          <ul class="list-inline social-links-footer text-center">
             <li class="list-inline-item">
               <a target="_blank" href="https://www.facebook.com">
-                <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="https://www.instagram.com">
-                <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="https://twitter.com">
-                <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="https://www.tripadvisor.com">
-                <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-tripadvisor fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">Tripadvisor</span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-
-      <!-- <span class="badge badge-pill badge-info">The Cross, Riverwalk, Ardee, Co.Louth Phone: 042-9800000 Email: info@underthearch.ie <br>
-                <ul class="list-inline social-links contacts-text">
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-facebook-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-twitter-square fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fab fa-tripadvisor fa-4x" aria-hidden="true"></i>
-                  <span class="sr-only">Tripadvisor</span>
-                </a>      
-                  </li>
-                </ul></span>
-            </div> -->
-
-      <!-- </footer> -->
     </footer>
 
     <link
