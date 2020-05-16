@@ -23,19 +23,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Under The Arch</title>
 
-    <!-- <style>
-    #bg-colour{
-        background-color: #b1aeae; 
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-    }
-    </style> -->
+
   </head>
   <body>
     <header>
+
       <!-- NAVBAR -->
 
       <nav
@@ -59,19 +51,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
             <li class="active nav-item mr-2 hvr-grow">
-              <a class="nav-link" href="index.html"></a>
+              <a class="nav-link" href="/home"></a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="bar.html">Bar</a>
+              <a class="nav-link" href="/bar">Bar</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="restaurant.html">Restaurant</a>
+              <a class="nav-link" href="/restaurant">Restaurant</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="brewdistil">Brewery 'n' Distillery</a>
+              <a class="nav-link" href="/brewdistil">Brewery 'n' Distillery</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="venue.html">Venue</a>
+              <a class="nav-link" href="/venue">Venue</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/dl-events">Download Events</a>
@@ -84,7 +76,7 @@
     <!-- LOGO -->
 
     <div class="row no-gutters">
-      <a class="col-md-12 venue" href="index.html"></a>
+      <a class="col-md-12 logo" href="index.html"></a>
     </div>
 
     <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
@@ -96,7 +88,7 @@
       </div>
     </div>
 
-    <!-- <div
+    <div
         class="row col-sm-4 no-gutters bg-color-name-description-slogan text-center">
         <div class="col">
           <br />
@@ -155,40 +147,93 @@
           </ul>
           <br />
         </div>
-      </div>-->
+      </div>
 
     <!-- BODY -->
-    <!-- ABOUT US -->
 
-    <section id="bg-color">
-      <div class="container">
-        <!-- Bootstap: https://getbootstrap.com/docs/4.5/layout/grid/#row-columns -->
-        <div class="container bg-color-company-details">
-          <h4 class="uppercase general-sub description-heading-display">
-            <strong>~ Our Venue ~</strong>
-          </h4>
-          <div class="row row-cols-3 description-wording-display">
-            <p class="col">
-            At 800 capacity (standing) & 550 capacity (seated) our venue is a
-            perfect location to catch local & international music acts across a
-            wide variety of genres from acoustic to rock, pop & metal as well as
-            the biggest country stars can be found here.</p>
+          <!--- // SIGN-UP FORM (MODAL) CODE -->
 
-            <p class="col">
-            We also host some of the finest local, national & international
-            DJ's. Superstar DJ's who have previously spun here include Carl
-            Coxz, Sascha & Digweeed, Armind vonBurren.</p>
+      <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Sign Up with 'Under The Arch' <i class="fas fa-archway"></i>
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"
+                    ><strong>Email address</strong></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >Your email address will not be shared.</small
+                  >
+                </div>
+                <label for="entertainment sign-up-choice-color"
+                  ><strong
+                    >Select the information you would like us to provide</strong
+                  ></label
+                ><br />
 
-            <p class="col">
-            Drama, classical and theatre groups (local, national &
-            international) also have a place here. <br>
+                <label for="general">General</label>
+                <input
+                  type="radio"
+                  name="general_preference"
+                  id="general"
+                  value="general"
+                  required
+                />
 
-            Please sign-up or follow us on social media to keep up to date with
-            who is coming soon.</p>
+                <label for="bar/restaurant">Bar/Restaurant</label>
+                <input
+                  type="radio"
+                  name="bar_restaurant_preference"
+                  id="bar_restaurant"
+                  value="bar_restaurant"
+                />
+
+                <label for="brewdistil">Brewery 'n' Distillery</label>
+                <input
+                  type="radio"
+                  name="brew_distil_preference"
+                  id="brew_distil"
+                  value="brew_distil"
+                />
+
+                <label for="venue">Venue</label>
+                <input
+                  type="radio"
+                  name="venue_preference"
+                  id="venue"
+                  value="venue"
+                /><br />
+
+                <button type="reset" class="btn btn-info">Reset</button>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+
 
     <!-- FOOTER -->
 

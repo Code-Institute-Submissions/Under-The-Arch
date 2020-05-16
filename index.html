@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,23 +23,15 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Under The Arch</title>
 
-    <!-- <style>
-    #bg-colour{
-        background-color: #b1aeae; 
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-    }
-    </style> -->
 
   </head>
   <body>
     <header>
       <!-- NAVBAR -->
 
-      <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top">
+      <nav
+        class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"
+      >
         <a href="/" class="navbar-brand"
           ><strong>Under The Arch</strong> <i class="fas fa-archway"></i
         ></a>
@@ -59,19 +50,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
             <li class="active nav-item mr-2 hvr-grow">
-              <a class="nav-link" href="/home"></a>
+              <a class="nav-link" href="index.html"></a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/bar">Bar</a>
+              <a class="nav-link" href="bar.html">Bar</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/restaurant">Restaurant</a>
+              <a class="nav-link" href="restaurant.html">Restaurant</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/brewdistil">Brewery 'n' Distillery</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/venue">Venue</a>
+              <a class="nav-link" href="/venue.html">Venue</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/dl-events">Download Events</a>
@@ -84,15 +75,19 @@
     <!-- LOGO -->
 
     <div class="row no-gutters">
-      <a class="col-md-12 logo logo-size" href="index.html"></a>
+      <a class="col-md-12 logo" href="index.html"></a>
     </div>
-    
 
+    <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
+    <div class="row">
+      <div class="col d-sm-block d-md-none">                        <!-- https://stackoverflow.com/questions/40476201/bootstrap-4-hidden-classes-only-hide-on-small-screens -->
+        <h2 class="description">
+          Bar / Restaurant / Venue<br />Brewery 'n' Distillery
+        </h2>
+      </div>
+    </div>
 
-
-      <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
-
-      <!-- <div
+    <!-- <div
         class="row col-sm-4 no-gutters bg-color-name-description-slogan text-center">
         <div class="col">
           <br />
@@ -153,171 +148,121 @@
         </div>
       </div>-->
 
-
-<!-- BODY -->
+    <!-- BODY -->
     <!-- ABOUT US -->
 
     <section id="bg-color">
-    <div class="container">                                                                  <!-- Bootstap: https://getbootstrap.com/docs/4.5/layout/grid/#row-columns -->
-    <div class="container bg-color-contact-details bg-color-company-details">
-    <h4 class="uppercase general-sub description-heading-display">
-    <strong>About Us</strong></h4>    
-        <div class="row row-cols-2 description.wording-display"> 
-            <p class="col"><strong>Established over 150 years ago </strong> and staying within
-            the family through the generations, we went from coach-house to
-            small hotel and now into our 6th generation and our current
-            incarnation of award winning bar, restaurant and brewery /
-            distillery as well as an entertainment hotspot with overnight
-            accomodation and a great breakfast.</p>
-            <p class="col">Whether it's drinks on the edge of town after a tough week, a few
-            leisurely measures to help shift those midweek blues, an escape for
-            the weekend, food with family & friends, a tour of our widely
-            acclaimed brewery / distillery or a night catching the latest music
-            acts & DJ's or being amazed with the shows in our theatre, the
-            options are many, the choice is
-            <strong>... YOURS</strong>.</p>
-            </div>
-        </div>
-    </div>
-            
-            <!-- <div class="col bg-color"><strong>Established over 150 years ago </strong> and staying within
-            the family through the generations, we went from coach-house to
-            small hotel and now into our 6th generation and our current
-            incarnation of award winning bar, restaurant and brewery /
-            distillery as well as an entertainment hotspot with overnight
-            accomodation and a great breakfast.</div>
-            <div class="col">Whether it's drinks on the edge of town after a tough week, a few
-            leisurely measures to help shift those midweek blues, an escape for
-            the weekend, food with family & friends, a tour of our widely
-            acclaimed brewery / distillery or a night catching the latest music
-            acts & DJ's or being amazed with the shows in our theatre, the
-            options are many, the choice is
-            <strong>... YOURS</strong>.</div>
-        </div>
-    </div> -->
-            
-
-
-
-
-
-
-
-
-
-      <!--<div id="logo-margins" class="row no-gutters bg-color">
-        <div class="col logo-margins">
-          <h4 class="uppercase general-sub page-details-text">
-            <strong>About Us</strong>
+      <div class="container">
+        <!-- Bootstap: https://getbootstrap.com/docs/4.5/layout/grid/#row-columns -->
+        <div class="container bg-color-company-details">
+          <h4 class="uppercase general-sub description-heading-display">
+            <strong>~ About Us ~</strong>
           </h4>
-          <p class="page-details-text">
-            <strong>Established over 150 years ago </strong> and staying within
-            the family through the generations, we went from coach-house to
-            small hotel and now into our 6th generation and our current
-            incarnation of award winning bar, restaurant and brewery /
-            distillery as well as an entertainment hotspot with overnight
-            accomodation and a great breakfast.
-          </p>
-
-          <p class="page-details-text">
-            Whether it's drinks on the edge of town after a tough week, a few
-            leisurely measures to help shift those midweek blues, an escape for
-            the weekend, food with family & friends, a tour of our widely
-            acclaimed brewery / distillery or a night catching the latest music
-            acts & DJ's or being amazed with the shows in our theatre, the
-            options are many, the choice is
-            <strong>... YOURS</strong>.
-          </p>
-          <br />
+          <div class="row row-cols-2 description-wording-display">
+            <p class="col">
+              <strong>Established over 150 years ago </strong> and staying
+              within the family through the generations, we went from
+              coach-house to small hotel and now into our 6th generation and our
+              current incarnation of award winning bar, restaurant and brewery /
+              distillery as well as an entertainment hotspot with overnight
+              accomodation and a great breakfast.
+            </p>
+            <p class="col">
+              Whether it's drinks on the edge of town after a tough week, a few
+              leisurely measures to help shift those midweek blues, an escape
+              for the weekend, food with family & friends, a tour of our widely
+              acclaimed brewery / distillery or a night catching the latest
+              music acts & DJ's or being amazed with the shows in our theatre,
+              the options are many, the choice is <strong>... YOURS</strong>.
+            </p>
+          </div>
         </div>
       </div>
-      </div> -->
 
+      <!--- // SIGN-UP FORM (MODAL) CODE -->
 
-    <!--- // SIGN-UP FORM (MODAL) CODE -->
-    
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">
-              Sign Up with 'Under The Arch' <i class="fas fa-archway"></i>
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1"
-                  ><strong>Email address</strong></label
-                >
+      <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Sign Up with 'Under The Arch' <i class="fas fa-archway"></i>
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"
+                    ><strong>Email address</strong></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >Your email address will not be shared.</small
+                  >
+                </div>
+                <label for="entertainment sign-up-choice-color"
+                  ><strong
+                    >Select the information you would like us to provide</strong
+                  ></label
+                ><br />
+
+                <label for="general">General</label>
                 <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  type="radio"
+                  name="general_preference"
+                  id="general"
+                  value="general"
                   required
                 />
-                <small id="emailHelp" class="form-text text-muted"
-                  >Your email address will not be shared.</small
-                >
-              </div>
-              <label for="entertainment sign-up-choice-color"
-                ><strong
-                  >Select the information you would like us to provide</strong
-                ></label
-              ><br />
 
-              <label for="general">General</label>
-              <input
-                type="radio"
-                name="general_preference"
-                id="general"
-                value="general"
-                required
-              />
+                <label for="bar/restaurant">Bar/Restaurant</label>
+                <input
+                  type="radio"
+                  name="bar_restaurant_preference"
+                  id="bar_restaurant"
+                  value="bar_restaurant"
+                />
 
-              <label for="bar/restaurant">Bar/Restaurant</label>
-              <input
-                type="radio"
-                name="bar_restaurant_preference"
-                id="bar_restaurant"
-                value="bar_restaurant"
-              />
+                <label for="brewdistil">Brewery 'n' Distillery</label>
+                <input
+                  type="radio"
+                  name="brew_distil_preference"
+                  id="brew_distil"
+                  value="brew_distil"
+                />
 
-              <label for="brewdistil">Brewery 'n' Distillery</label>
-              <input
-                type="radio"
-                name="brew_distil_preference"
-                id="brew_distil"
-                value="brew_distil"
-              />
+                <label for="venue">Venue</label>
+                <input
+                  type="radio"
+                  name="venue_preference"
+                  id="venue"
+                  value="venue"
+                /><br />
 
-              <label for="venue">Venue</label>
-              <input
-                type="radio"
-                name="venue_preference"
-                id="venue"
-                value="venue"
-              /><br />
-
-              <button type="reset" class="btn btn-info">Reset</button>
-              <button type="submit" class="btn btn-info">Submit</button>
-            </form>
+                <button type="reset" class="btn btn-info">Reset</button>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
-    
+
     <!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
 
     <!---        <div class="col-sm-3">
@@ -415,21 +360,20 @@
           >
         </div> -->
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
 
     <footer id="footer-color" class="container-fluid no-gutters">
       <div id="footer" class="row no-gutters">
         <div class="col-sm-12 footer-text text-center">
-            <ul style="list-style-type: none" >
-              <strong
-                ><p>
-                  <!-- UL LIST WITHOUT BULLETS: https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets -->
-                  <li>The Cross, Riverwalk, Ardee, Co.Louth</li>
-                  <li>Phone: 042-9800000 Email: info@underthearch.ie</li>
-                </p></strong
-              >
-            </ul></a
-          >
+          <ul style="list-style-type: none;">
+            <strong
+              ><p>
+                <!-- UL LIST WITHOUT BULLETS: https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets -->
+                <li>The Cross, Riverwalk, Ardee, Co.Louth</li>
+                <li>Phone: 042-9800000 Email: info@underthearch.ie</li>
+              </p></strong
+            >
+          </ul>
 
           <ul class="list-inline social-links-footer text-center">
             <li class="list-inline-item">
