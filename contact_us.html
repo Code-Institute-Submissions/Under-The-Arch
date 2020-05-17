@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -25,20 +25,19 @@
 
 
   </head>
-  <body>
+  <body class="full-site">
     <header>
-
       <!-- NAVBAR -->
 
       <nav
         class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"
       >
-        <a href="/" class="navbar-brand"
-          ><strong>Under The Arch</strong> <i class="fas fa-archway"></i
+        <a href="index.html" class="navbar-brand nav-link">
+        <strong>Under The Arch</strong> <i class="fas fa-archway"></i
         ></a>
 
         <button
-          class="navbar-toggler ml-auto navbar-toggler-color d-md-none"
+          class="navbar-toggler ml-auto navbar-toggler-color  d-md-none"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -48,22 +47,25 @@
         >
           <span class="navbar-toggler-icon icon-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto navbar-font">
             <li class="active nav-item mr-2 hvr-grow">
-              <a class="nav-link" href="/home"></a>
+              <a class="nav-link dropdown" href="/x"></a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/bar">Bar</a>
+              <a class="nav-link" href="bar.html">Bar</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/restaurant">Restaurant</a>
+              <a class="nav-link" href="restaurant.html">Restaurant</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/brewdistil">Brewery 'n' Distillery</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link" href="/venue">Venue</a>
+              <a class="nav-link" href="/venue.html">Venue</a>
+            </li>
+            <li class="nav-item mr-2 hvr-float-shadow">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link" href="/dl-events">Download Events</a>
@@ -73,11 +75,13 @@
       </nav>
     </header>
 
+   
     <!-- LOGO -->
 
+<!--
     <div class="row no-gutters">
       <a class="col-md-12 logo" href="index.html"></a>
-    </div>
+    </div> -->
 
     <!-- NAME / DESCRIPTION / CONTACT DETAILS / SOCIAL MEDIA LINKS-->
     <div class="row">
@@ -89,7 +93,7 @@
     </div>
 
     <div
-        class="row col-sm-4 no-gutters bg-color-name-description-slogan text-center">
+        class="row col-sm-4 no-gutters bg-color-name-description-slogan contacts-page text-center">
         <div class="col">
           <br />
           <h2 class="description">
@@ -97,7 +101,7 @@
           </h2>
           <h1 class="name margin">
             <strong> Under The Arch </strong><i class="fas fa-archway"></i>
-                <i>Change of pace in this Idyllic Place!</i> 
+                <!-- <i>Change of pace in this Idyllic Place!</i> --> 
           </h1>
 
           <h3 class="contacts-text"><strong>Contact Us:</strong></h3>
@@ -150,8 +154,37 @@
       </div>
 
     <!-- BODY -->
+    <!-- ABOUT US
 
-          <!--- // SIGN-UP FORM (MODAL) CODE -->
+    <section id="bg-color">
+      <div class="container">
+            Bootstap: https://getbootstrap.com/docs/4.5/layout/grid/#row-columns
+        <div class="container bg-color-company-details">
+          <h4 class="uppercase general-sub description-heading-display">
+            <strong>~ About Us ~</strong>
+          </h4>
+          <div class="row row-cols-2 description-wording-display">
+            <p class="col">
+              <strong>Established over 150 years ago </strong> and staying
+              within the family through the generations, we went from
+              coach-house to small hotel and now into our 6th generation and our
+              current incarnation of award winning bar, restaurant and brewery /
+              distillery as well as an entertainment hotspot with overnight
+              accomodation and a great breakfast.
+            </p>
+            <p class="col">
+              Whether it's drinks on the edge of town after a tough week, a few
+              leisurely measures to help shift those midweek blues, an escape
+              for the weekend, food with family & friends, a tour of our widely
+              acclaimed brewery / distillery or a night catching the latest
+              music acts & DJ's or being amazed with the shows in our theatre,
+              the options are many, the choice is <strong>... YOURS</strong>.
+            </p>
+          </div>
+        </div>
+      </div>  -->
+
+      <!--- // SIGN-UP FORM (MODAL) CODE -->
 
       <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
@@ -233,7 +266,7 @@
           </div>
         </div>
       </div>
-
+    </section>
 
     <!-- FOOTER -->
 
