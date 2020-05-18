@@ -30,7 +30,7 @@
       <!-- NAVBAR -->
 
       <nav
-        class="navbar navbar-light bg-color-navbar navbar-expand-sm"
+        class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"
       >
         <a href="index.html" class="navbar-brand nav-link">
         <strong>Under The Arch</strong> <i class="fas fa-archway"></i
@@ -59,9 +59,6 @@
               <a class="nav-link text-white" href="restaurant.html">Restaurant</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
-              <a class="nav-link text-white" href="/brewdistil">Brewery 'n' Distillery</a>
-            </li>
-            <li class="nav-item mr-2 hvr-float-shadow">
               <a class="nav-link text-white" href="/venue.html">Venue</a>
             </li>
             <li class="nav-item mr-2 hvr-float-shadow">
@@ -87,9 +84,9 @@
     
     <section id="bg-color" class="container-fluid no-gutters">
     <div class="row">
-      <div class="col d-sm-block d-md-none">                        <!-- https://stackoverflow.com/questions/40476201/bootstrap-4-hidden-classes-only-hide-on-small-screens -->
+      <div class="col-lg-12 d-sm-block d-md-none">                        <!-- https://stackoverflow.com/questions/40476201/bootstrap-4-hidden-classes-only-hide-on-small-screens -->
         <h2 class="description">
-          Bar / Restaurant / Venue<br />Brewery 'n' Distillery
+          Bar / Restaurant / Venue
         </h2>
       </div>
     </div>
@@ -147,9 +144,10 @@
             </li>
           </ul>
     </div>
+    </div>
     <div
         class="row col bg-color text-center">
-        <div class="col">
+        <div class="col text-center">
           <br />
           <h3 class="description">
             <strong> Comments / Feedback </strong>
@@ -172,7 +170,7 @@
             data-target="#signUpModal"
           >
             Submit</button>
-
+            </div>
         </div>
       </div>
 <!--
@@ -192,8 +190,7 @@
             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
             <textarea rows = 5 name="comments-feedback" id="comments-feedback" class="form-control" placeholder="Comments / Feedback" required cols="30" rows="10"></textarea>   
             </form> -->
-        </div>
-    </div>
+
 
 
     <!-- BODY -->
@@ -255,14 +252,6 @@
                   name="bar_restaurant_preference"
                   id="bar_restaurant"
                   value="bar_restaurant"
-                />
-
-                <label for="brewdistil">Brewery 'n' Distillery</label>
-                <input
-                  type="radio"
-                  name="brew_distil_preference"
-                  id="brew_distil"
-                  value="brew_distil"
                 />
 
                 <label for="venue">Venue</label>
