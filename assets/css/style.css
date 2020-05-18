@@ -55,6 +55,8 @@
 .bg-color-name-description-slogan{
     background-color: #b1aeae;       //#136f28
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .bg-color-contact-details{
@@ -99,8 +101,13 @@
 /* ------------------------------ Special padings/margins/text */
 
 .full-site{
-    border: 0;
-    margin: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right:
+
+    /*border: 0;
+    margin: 0 auto; */
 }
 
 .logo-size{
@@ -112,6 +119,8 @@
     width: 100%;
     min-height: 50%;
     max-height: 50%;
+
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -126,9 +135,16 @@ color-name-description-slogan{
     text-align:center;
 }
 
+.card-body{
+    margin: 0 auto;
+    background-color: #b1aeae;
+}
+
 .contacts-page{
-    width: 100%;
-    height: 100%;
+    margin-top: 20px 0px;
+    height: 760px;
+    /*width: 100%;
+    display: inline-block;*/
 }
 
 .uppercase{                                                                     /* POSSIBLY REMOVE THIS SECTION */
@@ -172,6 +188,22 @@ color-name-description-slogan{
 
 https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
 
+
+#contacts-page {
+    width: :fullscreen;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+}
+
+.contact-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 30%;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+}
 
 /* ------------------------------ Heading */
 
@@ -316,13 +348,14 @@ header{
 
 .description-heading-display{
     text-align: center;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .description-wording-display{
     display: inline-block;
-    padding-bottom: 2.5%;
+    padding-top: 20px;
+    /*padding-bottom: 2.5%;*/
 }
 
 .menuitem span{
@@ -356,6 +389,14 @@ header{
     margin-right: 20%;
     margin-bottom: 20px;
     padding-bottom: 0;
+}
+
+.button-details-text{
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    padding: 0;
 }
 
 /* ------------------------------ Footer */ 
@@ -459,3 +500,13 @@ footer-details{
     max-height: 50px;
 }
 
+
+/* ------------------------------ Media Queries */ 
+
+@media(min-width: 992px) {
+    .contact-form{
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
