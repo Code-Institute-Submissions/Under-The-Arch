@@ -128,7 +128,8 @@
 							<span class="sr-only">Tripadvisor</span>
 						</a>
 					</li>
-					<li class="btn btn-info sign-up-button-text text-center"
+
+<!-- SIGNUP BUTTON--><li class="btn btn-info sign-up-button-text text-center" 
                         data-toggle="modal"
                         data-target="#signUpModal">
                         Sign Up!
@@ -136,6 +137,9 @@
 				</ul>
 			</div>
 		</div>
+
+<!-- COMMENTS / FEEDBACK FORM-->
+
 		<div class="row col bg-color text-center">
 			<div class="col contact-us-form text-center">
 				<br />
@@ -147,7 +151,7 @@
                 All feedback will be reviewed and used to improve our service for you.</h6>
 
 					<div class="contact-form text-center">
-						<form>
+						<form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">                         
 							<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
 							<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
 							<textarea rows="3" name="comments-feedback" id="comments-feedback" class="form-control" placeholder="Comments / Feedback" required></textarea>
@@ -158,21 +162,21 @@
 						<button
             class="btn btn-info button-details-text"
             data-toggle="modal"
-            data-target="#signUpModal"
+            data-target="#commentsModal"
           >
             Submit</button>
 					</div>
 			</div>
 		</div>
 
-		<!--- // SIGN-UP FORM (MODAL) CODE -->
+        <!-- JOIN MAILING LIST (MODAL) CODE -->
 
 		<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<h5 class="modal-title">
-							Sign Up with 'Under The Arch' <i class="fas fa-archway"></i>
+							Let us keep you up to date with everything happening 'Under The Arch' <i class="fas fa-archway"></i>
 						</h5>
 						<button
                 type="button"
@@ -199,11 +203,8 @@
 								<small id="emailHelp" class="form-text text-muted"
                     >Your email address will not be shared.</small>
 							</div>
-							<label for="entertainment sign-up-choice-color"
-                  ><strong
-                    >Select the information you would like us to provide</strong
-                  ></label><br />
-
+							<label for="entertainment sign-up-choice-color">
+                  </label>
 							<label for="general">General</label>
 							<input
                   type="radio"
@@ -213,12 +214,20 @@
                   required
                 />
 
-							<label for="bar/restaurant">Bar/Restaurant</label>
+							<label for="bar">Bar</label>
 							<input
                   type="radio"
-                  name="bar_restaurant_preference"
-                  id="bar_restaurant"
-                  value="bar_restaurant"
+                  name="bar_preference"
+                  id="bar"
+                  value="bar"
+                />
+
+                			<label for="restaurant">Restaurant</label>
+							<input
+                  type="radio"
+                  name="restaurant_preference"
+                  id="restaurant"
+                  value="restaurant"
                 />
 
 							<label for="venue">Venue</label>
@@ -227,8 +236,7 @@
                   name="venue_preference"
                   id="venue"
                   value="venue"
-                /><br />
-
+                /><br>
 							<button type="reset" class="btn btn-info">Reset</button>
 							<button type="submit" class="btn btn-info">Submit</button>
 						</form>
@@ -236,13 +244,69 @@
 				</div>
 			</div>
 		</div>
+
+
+<!-- COMMENTS / FEEDBACK FORM (MODAL) CODE -->
+
+		<div class="modal" tabindex="-1" role="dialog" id="#commentsModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">
+							Let us keep you up to date with everything happening 'Under The Arch' <i class="fas fa-archway"></i>
+						</h5>
+						<button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1"
+                    ><strong>Email address</strong></label>
+								<input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+								<small id="emailHelp" class="form-text text-muted"
+                    >Your email address will not be shared.</small>
+							</div>
+							<label for="entertainment sign-up-choice-color">
+                  </label>
+							<label for="general">General</label>
+							<input
+                  type="radio"
+                  name="general_preference"
+                  id="general"
+                  value="general"
+                  required
+                />
+
+				
+							<button type="reset" class="btn btn-info">Reset</button>
+							<button type="submit" class="btn btn-info">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</section>
 
 	<!-- FOOTER -->
 
 
 	<footer id="footer-color" class="container-fluid no-gutters footer-details">
-		<div id="footer" class="row no-gutters">
+		<div class="row no-gutters">
 			<div class="col-sm-12 footer-text text-center footer-margins">
 				<ul style="list-style-type: none;">
 					<strong
