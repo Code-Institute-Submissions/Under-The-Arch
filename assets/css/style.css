@@ -33,10 +33,6 @@
     background-color: rgb(142, 189, 155);
 }
 
-bg-color-contact-details{
-    background-color: #ffffff;   //727272
-}
-
 .bg-color-company-details{
     background-color: #b1aeae; 
     height: 100%;
@@ -54,22 +50,9 @@ bg-color-contact-details{
     border:1px solid #17A2B8;
 }
 
-hvr-float-shadow:before{
-    background: rgba(45, 107, 88, 1, 0.2)   //https://www.hexcolortool.com/#2d6c59
-}
-
 .sign-up-choice-color{
     font: #17A2B8;
 }
-
-list-unstyled{
-  list-style-type: none;
-}
-
-bg-contact-us-details{
-    background-color: #b1aeae; 
-}
-
 
 /* ------------------------------ Special paddings/margins/text */
 
@@ -108,7 +91,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .contact-us-form{
-    min-height: 460px;
+    min-height: 415px;
+    margin: 0 auto;
+    bottom: 0;
 }
 
 .contact-form{
@@ -218,6 +203,13 @@ contact{
 .description-wording-display{
     display: inline-block;
     padding-top: 20px;
+    /*padding-bottom: 2.5%;*/
+}
+
+.description-wording-display-index{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /*padding-bottom: 2.5%;*/
 }
 
