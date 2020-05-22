@@ -41,7 +41,7 @@
 
 #bg-color{
     background-color: #b1aeae; 
-    min-height: 150px;
+    min-height: 200px;
     max-height: 500%;
     padding: 0;
 }
@@ -100,6 +100,20 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin: 0 auto;
     max-width: 50%;
+}
+
+leftbox{
+    float: left;
+    width: 50%;
+    height: 280px;
+    display: inline;
+}
+
+rightbox{
+    float: right;
+    width: 50%;
+    height: 280px;
+    display: inline;
 }
 
 /* ------------------------------ Heading */
@@ -163,6 +177,64 @@ contact{
     -webkit-transition: all .5s ease-in-out;  
 }
 
+.contact-us-image{
+    position: relative;
+    background: url("../images/phone.jpg");
+    background-position: left;
+    background-repeat: repeat;
+    background-size: 50%;
+    min-height: 400px;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.event-listing-webpage{
+    position: relative;
+    background: url("../images/june_event_listings_wrong.jpg");
+    background-color: #b1aeae; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 2580px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+
+    -webkit-transition: all .5s ease-in-out;  
+
+        /* display: inline-block;
+    background: url("../listings/june_events_listing.pdf"); */
+}
+
+.event-listings{
+    position: relative;
+    background: url("../listings/june_event_listings.jpg");
+    background-color: #b1aeae; 
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1020px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;  
+
+        /* display: inline-block;
+    background: url("../listings/june_events_listing.pdf"); */
+
+}
+
+.event-listing-page{
+    margin-top: 10%px;
+    margin-bottom: 10%;
+}
+
 .name{
     font-family: "Mukta", sans-serif;
     font-weight: 300;
@@ -210,7 +282,13 @@ contact{
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
     /*padding-bottom: 2.5%;*/
+}
+
+.contact-us-layout{
+    display: inline;
 }
 
 .button-details-text{
@@ -226,6 +304,28 @@ contact{
     margin-bottom: 20px;
     padding-bottom: 0;
 }
+
+.download-button{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+
+.contact-us-heading{
+    color: #fff;
+}
+
+.contact-us-name-format{
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
 
 /* ------------------------------ Footer */ 
 
