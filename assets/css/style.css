@@ -3,7 +3,6 @@
 /* ------------------------------ Colours */
 
 .bg-color-navbar{
-    position: fixed;
     background-color:rgb(142, 189, 155);
 }
 
@@ -33,7 +32,7 @@
 
 .bg-color-company-details{
     background-color: #b1aeae; 
-    min-height: 35%;
+    /*min-height: 35%;*/
     height: 100%;
     width: 100%;
 }
@@ -252,6 +251,18 @@ contact{
     background-color: #b1aeae; 
     font-weight: 100;
     font-size: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.description-small-screen{
+    font-family: "Mukta", sans-serif;
+    background-color: #b1aeae; 
+    font-weight: 100;
+    font-size: 35px;
+    padding-top: 60px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-align: center;
