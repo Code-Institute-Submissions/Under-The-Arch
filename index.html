@@ -16,7 +16,8 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-    <!-- Hover CSS if used -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Under The Arch</title>
@@ -26,62 +27,86 @@
 
 <!-- NAVBAR -->
 
+<div class="col-sm-3 col-md-6 col-lg-12 top-contacts-bar text-center">         <!-- <div class="col-sm-3 col-md-6 col-lg-12 footer-text text-center"> -->
+<ul style="list-style-type: none;">                 <!-- <ul style="list-style-type: none;">-->
+<strong><p>              
+</p><li>The Cross, Riverwalk, Ardee, Co.Louth <i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
+<p></p></strong>
+</ul>
+</div>
 
-		<nav class="navbar bg-color-navbar-footer"> <!-- <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"> -->
-			<a href="index.html" class="navbar-brand nav-link hvr-grow">    <!-- <a href="index.html" class="navbar-brand nav-link hvr-grow"> -->
-				<strong>Under The Arch</strong> <i class="fas fa-archway"></i></a>
-        </nav>
+<nav class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer"> <!-- <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"> -->
+<a href="index.html" class="navbar-brand nav-link hvr-grow text-white">    <!-- <a href="index.html" class="navbar-brand nav-link hvr-grow"> -->
+<strong>Under The Arch</strong> <i class="fas fa-archway"></i></a>
+        
 
-</header>
+			<button class="navbar-toggler ml-auto navbar-toggler-color dropdown d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+			<div class="collapse navbar-collapse " id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto navbar-font">
+					<li class="active nav-item mr-2 hvr-grow">
+						<a class="nav-link dropdown" href="/x"></a>
+					</li>
+					<li class="nav-item mr-2 hvr-float-shadow">
+                	    <a class="nav-link text-white" href="assets/listings/june_events_listing.pdf" target="_blank">Event Listings / Download</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>        
 
-  <body>
+  <body class="page-margins">
 
 
-	<!-- OUTSIDE IMAGE
+	<!-- ABOUT US & IMAGE  -->
 
-    <section class="container-fluid">
+    <section class="bg-color-main-contactus container-fluid no-gutters">
 	<div class="row no-gutters">
-		<div class="col-sm-3 col-md-6 bar-welcome-image" href="index.html"></div>
-	</div>
-    </section>  -->
-    <!---->
-
-
-	<!-- ABOUT US -->
-
-	<section class="bg-color-main">
-		<div class="container">
-				<h4 class="text-center uppercase general-text-format">
-					<strong>~ About Us ~</strong>
+		<div class="col-md-4 location-top-right" href="index.html"></div>
+        <div class="col-md-4 our-story-section">
+		<!-- <div class="container"> -->
+				<h4 class="text-center uppercase text-format-aboutus">
+					<strong>~ Our Story ~</strong>
 				</h4>
 				<div class="row">
 					<p class="col cols-2 description-wording-display">
 						<strong>Established over 150 years ago </strong> and staying
 						within the family through the generations, we went from
 						coach-house to small hotel and now into our 6th generation and our
-						current incarnation of award winning bar, restaurant and entertainment hotspot.
-                        <br>
-                        Whatever the occassion, consider us, we will do our best to make it memorable for all the right reasons.
+						current incarnation of award winning bar, restaurant and entertainment hotspot.</p>
+
+                    <p class="col cols-3 description-wording-display">
+                        <!-- Whatever the occassion, --> Be it drinks on the edge of town after a tough week, a few
+						quiet drinks to ease those midweek blues, food with family & friends or even a night catching
+                        the latest music acts & DJ's or being amazed with the shows in our theatre, theoptions are many, 
+                        the choice is <strong>... YOURS</strong>.
 					</p>
-					<p class="col cols-2 description-wording-display">
-						Be it drinks on the edge of town after a tough week, a few
-						leisurely measures to help shift those midweek blues, an escape
-						for the weekend, food with family &amp; friends or a night catching the latest
-						music acts &amp; DJ's or being amazed with the shows in our theatre,
+                    <!-- Consider us, we will do our best to make your visit memorable for all the right reasons.
+					</p>
+					<p class="col cols- description-wording-display">
+                        Or a night catching the latest music acts & DJ's or being amazed with the shows in our theatre,
 						the options are many, the choice is <strong>... YOURS</strong>.
-					</p>
-				</div>
-			</div>
+					</p> -->
+    	</div>
+		</div>
+        <div class="col-md-4 location-top-left" href="index.html"></div>
+    </div>
+
     </section>
 
 <!-- BAR DETAILS -->
 
-		<section class="bg-color-main">
-		<div class="container">
-				<h4 class="text-center uppercase general-text-format">
+	<!-- BAR IMAGE  -->
+
+    <section class="bg-color-main-contactus container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-8 col-8-padding"> 
+		<!-- <div class="container"> -->
+				<h4 class="text-center uppercase text-format-bar">
 					<strong>~ Our Bar's ~</strong>
 				</h4>
-				<div class="card text-white bg-dark text-center">
+				<div class="card text-white bg-dark text-center banner-margin card-body">
 					<div class="card-body">
 						<strong> Opening Hours - Mon - Thurs:</strong> 10.30am - 11.30pm, <strong>Fri - Sat:</strong>
 						10.30am - 12.30am, <strong>Sun:</strong> 12 (midday) - 11.00pm. <br>
@@ -89,38 +114,48 @@
 					</div>
 				</div>
 				<div class="row">
-					<p class="col cols-3 description-wording-display">
+					<p class="col cols-2 description-wording-display">
 						With 3 bars we can cater for most tastes.
 						<br>
 
 						<strong>A snug bar</strong> for the whiskey & gin connossieur, sample our local
 						distillations or choose from the selction of other fine spirits on
-						offer.</p>
+						offer.<br> 
+                        A sanctuary, a place to sit back, away from the hustle of daily life and enjoy 
+                        the textures and tastes.</p>              
 
-					<p class="col cols-3 description-wording-display">
+					<p class="col cols-2 description-wording-display">
 						Maybe you'd prefer <strong>the main bar</strong> with it's contemporary yet
 						comfortable surrounding offering a selection of local craft brews along with a
-						selection of the usual suspects.
+						selection of the usual suspects.<br>
+                        There is also a large selection of bar food available daily from 11.30am until 9pm.
+                        <br>(* Not all foods available at all times *) 
 					</p>
 
-					<p class="col cols-3 description-wording-display">
+					<p class="col cols-2 description-wording-display">
 						Or maybe <strong>our coffee bar (open 7.30am) </strong> is for you. A place where you can stop
-						for a quick take-away, sit with friends or on your own watching the world pass by. <!--Whichever you
-                        choose we will have the coffee you need for you.-->
+						for a quick take-away, meet with friends or watch the world pass by. 
+                        <br>
+                        However you choose to spend your time we will have the perfect coffee for you.
 						</p>
-				</div>
+                    </div>
+                </div>
+            <div class="col-md-4 bar-welcome-image" href="index.html"></div>
 			</div>
-    </section>
+        </section>
 
 		<!-- RESTAURANT DETAILS -->
 
-		<section class="bg-color-main">
-		<div class="container">
-				<h4 class="text-center uppercase general-text-format">
+	<!-- RESTAURANT IMAGE  -->
+
+    <section class="bg-color-main-contactus container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-4 restaurant-image" href="index.html"></div>
+            <div class="col-md-8 col-8-padding"> 
+				<h4 class="text-center uppercase text-format-restaurant">
 					<strong>~ Our Restaurant ~</strong>
 				</h4>
-
-				<div class="card text-white bg-contact-us-details bg-dark text-center">
+				<div class="card text-white bg-contact-us-details bg-dark text-center card-body">
 					<div class="card-body">
 						<strong>Mon - Sat: Breakfast</strong> 7.30am - 11.00am, <strong>Lunch:</strong> Midday - 2.30pm,
 						<strong>Dinner:</strong> 5.30pm - 10.00pm.<br>
@@ -130,34 +165,43 @@
 				</div>
 
 				<div class="row">
-                <div class="col">
-					<p class="col cols-2 description-wording-display">
+
+					<p class="col cols-3 description-wording-display">
 						Our restaurant and award winning team select the finest seasonal and
 						local produce and combine it with their skill & flair offering a
-						wide range of options for all foodies. <!-- for the meat lover, pescitarian, flexitarian,
-						vegetarian or vegan amongst you. <!-- A well segmented kitchen assists in
-						keep the foods as free as possible from contamination. -->
-				</p>
-                    </div>
-					<p class="col cols-2 description-wording-display">
+						wide range of options for all foodies. For the meat lover, pescitarian, flexitarian,
+						vegetarian or vegan we cater for all. 
+				    </p>
+
+                	<p class="col cols-3 description-wording-display">
+					Be it a fresh salad, a juicy burger, a sizzling stirfry, a mouth-watering steak, fish, vegan & vegetarian options.
+                    Ourt chefs hit the markets early to get the best of produce as well as delivery from local farmers and suppliers, 
+                    we offer the best of locally grown, seasonal foods available.
+                    </p><br>
+
+					<p class="col cols-3 description-wording-display">
 						As our kitchen staff come from all over the globe, we can cook your
 						steak, your dahl, your fish and possibly your favourite as you require.
 						Don't be shy or afraid to ask, we will do our best to give you exactly
 						what is craved.
 					</p>
-			</div>
+                </div>
+            </div>
 		</div>
     </section>
 
-		<!-- VENUE DETAILS -->
+<!-- VENUE DETAILS -->
 
-	<section class="bg-color-main">
-			<div class="container">
-				<h4 class="text-center uppercase general-text-format">
+	<!-- VENUE IMAGE  -->
+
+    <section class="bg-color-main-contactus container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-8 col-8-padding">
+				<h4 class="text-center uppercase text-format-venue">
 					<strong>~ Our Venue ~</strong>
 				</h4>
 
-				<div class="card text-white bg-dark text-center">
+				<div class="card text-white bg-dark text-center card-body">
 					<div class="card-body">
 						<strong>Fri - Sat:</strong> 10.00pm - 03.00am. <br>
                 Please check our website/social media for all events and bank holiday weekend hours. <br>
@@ -175,8 +219,10 @@
                              artists and DJ's across rock, pop, country & dance. </p><br>
 
 						<p class="col cols-3 description-wording-display">
-							Superstar DJ's who have previously spun here include Carl Coxz, Sascha & 
-                            Digweeed, Armind von Burren, Podge vanDyke, T-esto & Pol Oakenhold.
+							Singers such as Brezzie, bands like Ashe, Carona's, Republic1, Sam Handwich 
+                            and the Blizzurd's as well as superstar DJ's like Marc Kavanagh, Mr. Sprung, 
+                            Dave Pierce, Carl Coxz, Sascha & Digweeed, Armind von Burren, Podge vanDyke,
+                            T-esto & Pol Oakenhold have all performed here. 
                             </p><br>
 
 						<p class="col cols-3 description-wording-display">
@@ -187,8 +233,10 @@
                             </p>
                             <br>
                             <p></p>
+                        </div>
                     </div>
-				</div>
+				    <div class="col-md-4 venue-image" href="index.html"></div>
+                </div>
                 
                 <div><p><h6 class="text-center">Please sign-up or follow us on social media to keep up to 
                         date with who is coming soon.</h6></p></div>
@@ -200,13 +248,13 @@
 	<!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
 
 
-	<footer class="bg-color-navbar-footer"> <!-- <footer id="footer-color" class="container-fluid no-gutters"> -->
+	<footer class="bg-color-navbar-footer container-fluid fixed-bottom"> <!-- <footer id="footer-color" class="container-fluid no-gutters"> -->
 		<div class="row container-fluid">                    <!-- <div id="footer" class="row no-gutters">  -->
-			<div class="col-sm-12 text-center">         <!-- <div class="col-sm-12 footer-text text-center"> -->
+			<div class="col-sm-12 text-center text-white">         <!-- <div class="col-sm-12 footer-text text-center"> -->
 				<ul style="list-style-type: none;">                 <!-- <ul style="list-style-type: none;">-->
 					<strong><p>              
-                </p><li>The Cross, Riverwalk, Ardee, Co.Louth</li>
-                <li>Phone: 042-9800000 Email: info@underthearch.ie</li>
+                </p><li>Under The Arch, The Cross, Riverwalk, Ardee, Co.Louth</li>
+                <li><i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
               <p></p></strong>
 				</ul>
 
