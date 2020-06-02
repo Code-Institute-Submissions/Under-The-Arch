@@ -1,71 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Under The Arch</title>
-  </head>
+	<title>Under The Arch</title>
+</head>
 
 <header>
 
-<!-- NAVBAR -->
+	<!-- NAVBAR -->
 
-<div class="col-sm-3 col-md-6 col-lg-12 top-contacts-bar text-center">         <!-- <div class="col-sm-3 col-md-6 col-lg-12 footer-text text-center"> -->
-<ul style="list-style-type: none;">                 <!-- <ul style="list-style-type: none;">-->
-<strong><p>              
+	<div class="top-contacts-bar text-center">
+		<!-- <div class="col-sm-3 col-md-6 col-lg-12 footer-text text-center"> -->
+		<ul style="list-style-type: none" class="ul-navbar-links">
+			<strong><p>              
 </p><li>The Cross, Riverwalk, Ardee, Co.Louth <i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
 <p></p></strong>
-</ul>
-</div>
+		</ul>
+	</div>
 
-<nav class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer"> <!-- <nav class="navbar navbar-light bg-color-navbar navbar-expand-sm fixed-top"> -->
-<a href="index.html" class="navbar-brand nav-link hvr-grow text-white">    <!-- <a href="index.html" class="navbar-brand nav-link hvr-grow"> -->
-<strong>Under The Arch</strong> <i class="fas fa-archway"></i></a>
-        
+	<nav class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer">
+		<a href="index.html" class="navbar-brand nav-link hvr-grow text-white">
+			<h4><strong>Under The Arch</strong> <i class="fas fa-archway"></i></h4>
+		<br></a>
+		<div class="text-white"><br>
+			<ul style="list-style-type: none;">
+				<li class="navbar-sections">
+					<h6 class="hvr-float-shadow text-white navbar-sections"><a href="#bars" style="text-decoration:none"> Bars /</a>
+					</h6>
+				</li>
+				<li>
+					<h6 class="hvr-float-shadow text-white navbar-sections"><a href="#restaurant" style="text-decoration:none">
+							 Restaurant / </a></h6>
+				</li>
+				<li>
+					<h6 class="hvr-float-shadow text-white navbar-sections"><a href="#venue" style="text-decoration:none">Venue </a>
+                    </h6>
+				</li>
+			</ul>
 
-			<button class="navbar-toggler ml-auto navbar-toggler-color dropdown d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon icon-bar"></span>
-        </button>
-			<div class="collapse navbar-collapse " id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto navbar-font">
-					<li class="active nav-item mr-2 hvr-grow">
-						<a class="nav-link dropdown" href="/x"></a>
-					</li>
-					<li class="nav-item mr-2 hvr-float-shadow">
-                	    <a class="nav-link text-white" href="assets/listings/june_events_listing.pdf" target="_blank">Event Listings / Download</a>
-					</li>
-				</ul>
+			<!-- SIGNUP BUTTON-->
+			<ul>
+				<li class="btn btn-light hvr-float-shadow sign-up-button-text text-center button-position"
+					data-toggle="modal" data-target="#signUpModal">
+					Sign Up!
+				</li>
+			</ul>
+
+			<!-- SIGNUP (MODAL) CODE -->
+
+			<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title ">
+								Let us keep you up to date with everything happening 'Under The Arch'
+								<i class="fas fa-archway"></i>
+							</h5>
+							<button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmailSignUp"
+                    ><strong>Email address</strong></label>
+									<input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmailSignUp"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+									<small id="emailHelp" class="form-text text-muted"
+                    >Your email address will not be shared.</small>
+								</div>
+								<label for="entertainment sign-up-choice-color">
+                  </label>
+								<label for="general">General</label>
+								<input
+                  type="radio"
+                  name="general_preference"
+                  id="general"
+                  value="general"
+                  required
+                />
+
+								<label for="bar">Bar</label>
+								<input
+                  type="radio"
+                  name="bar_preference"
+                  id="bar"
+                  value="bar"
+                />
+
+								<label for="restaurant">Restaurant</label>
+								<input
+                  type="radio"
+                  name="restaurant_preference"
+                  id="restaurant"
+                  value="restaurant"
+                />
+
+								<label for="venue">Venue</label>
+								<input
+                  type="radio"
+                  name="venue_preference"
+                  id="venue"
+                  value="venue"
+                /><br>
+								<button type="reset" class="btn btn-info">Reset</button>
+								<button type="submit" class="btn btn-info">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
-		</nav>
-	</header>        
+        </div>
+	</nav>
 
-  <body class="page-margins">
+</header>
+
+<body class="page-margins">
 
 
 	<!-- ABOUT US & IMAGE  -->
 
-    <section class="bg-color-main-contactus container-fluid no-gutters">
-	<div class="row no-gutters">
-		<div class="col-md-4 location-top-right" href="index.html"></div>
-        <div class="col-md-4 our-story-section">
-		<!-- <div class="container"> -->
+	<section class="bg-color-main-contactus container-fluid no-gutters">
+		<div class="row no-gutters">
+			<div class="col-md-4 location-top-right" href="index.html"></div>
+			<div class="col-md-4 our-story-section">
 				<h4 class="text-center uppercase text-format-aboutus">
 					<strong>~ Our Story ~</strong>
 				</h4>
@@ -76,41 +157,35 @@
 						coach-house to small hotel and now into our 6th generation and our
 						current incarnation of award winning bar, restaurant and entertainment hotspot.</p>
 
-                    <p class="col cols-3 description-wording-display">
-                        <!-- Whatever the occassion, --> Be it drinks on the edge of town after a tough week, a few
+					<p class="col cols-3 description-wording-display">
+						Be it drinks on the edge of town after a tough week, a few
 						quiet drinks to ease those midweek blues, food with family & friends or even a night catching
-                        the latest music acts & DJ's or being amazed with the shows in our theatre, theoptions are many, 
-                        the choice is <strong>... YOURS</strong>.
+						the latest music acts & DJ's or being amazed with the shows in our theatre, theoptions are many,
+						the choice is <strong>... YOURS</strong>.
 					</p>
-                    <!-- Consider us, we will do our best to make your visit memorable for all the right reasons.
-					</p>
-					<p class="col cols- description-wording-display">
-                        Or a night catching the latest music acts & DJ's or being amazed with the shows in our theatre,
-						the options are many, the choice is <strong>... YOURS</strong>.
-					</p> -->
-    	</div>
+				</div>
+			</div>
+			<div class="col-md-4 location-top-left" href="index.html"></div>
 		</div>
-        <div class="col-md-4 location-top-left" href="index.html"></div>
-    </div>
 
-    </section>
+	</section>
 
-<!-- BAR DETAILS -->
+	<!-- BAR DETAILS -->
 
 	<!-- BAR IMAGE  -->
 
-    <section class="bg-color-main-contactus container-fluid">
-        <div class="row no-gutters">
-            <div class="col-md-8 col-8-padding"> 
-		<!-- <div class="container"> -->
+	<section class="bg-color-main-contactus container-fluid">
+		<div class="row no-gutters">
+			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-bar">
-					<strong>~ Our Bar's ~</strong>
+					<p><strong><a name="bars">~ Our Bars ~</a></strong></p>
 				</h4>
-				<div class="card text-white bg-dark text-center banner-margin card-body">
+				<div class="col d-sm-display d-md-none bar-welcome-image"></div>
+				<div class="card text-white bg-dark text-center banner-margin card-body ">
 					<div class="card-body">
 						<strong> Opening Hours - Mon - Thurs:</strong> 10.30am - 11.30pm, <strong>Fri - Sat:</strong>
 						10.30am - 12.30am, <strong>Sun:</strong> 12 (midday) - 11.00pm. <br>
-                        <strong> Direct Line:</strong> 042-9800000(ext.1)
+						<strong> Direct Line:</strong> 042-9800000(ext.1)
 					</div>
 				</div>
 				<div class="row">
@@ -120,47 +195,136 @@
 
 						<strong>A snug bar</strong> for the whiskey & gin connossieur, sample our local
 						distillations or choose from the selction of other fine spirits on
-						offer.<br> 
-                        A sanctuary, a place to sit back, away from the hustle of daily life and enjoy 
-                        the textures and tastes.</p>              
+						offer.<br>
+                        A sanctuary, a place to sit back, away from the hustle of daily life and enjoy
+                        the textures and tastes.</p>
 
-					<p class="col cols-2 description-wording-display">
-						Maybe you'd prefer <strong>the main bar</strong> with it's contemporary yet
-						comfortable surrounding offering a selection of local craft brews along with a
-						selection of the usual suspects.<br>
+						<p class="col cols-2 description-wording-display">
+							Maybe you'd prefer <strong>the main bar</strong> with it's contemporary yet
+							comfortable surrounding offering a selection of local craft brews along with a
+							selection of the usual suspects.<br>
                         There is also a large selection of bar food available daily from 11.30am until 9pm.
-                        <br>(* Not all foods available at all times *) 
+							<br>(* Not all foods available at all times *)
 					</p>
 
-					<p class="col cols-2 description-wording-display">
-						Or maybe <strong>our coffee bar (open 7.30am) </strong> is for you. A place where you can stop
-						for a quick take-away, meet with friends or watch the world pass by. 
-                        <br>
+							<p class="col cols-2 description-wording-display">
+								Or maybe <strong>our coffee bar (open 7.30am) </strong> is for you. A place where you
+								can stop
+								for a quick take-away, meet with friends or watch the world pass by.
+								<br>
                         However you choose to spend your time we will have the perfect coffee for you.
 						</p>
-                    </div>
-                </div>
-            <div class="col-md-4 bar-welcome-image" href="index.html"></div>
+				</div>
 			</div>
-        </section>
+			<div class="col-md-4 col d-sm-block d-md-display bar-welcome-image" href="index.html"></div>
+		</div>
+	</section>
 
-		<!-- RESTAURANT DETAILS -->
+	<!-- RESTAURANT DETAILS -->
 
 	<!-- RESTAURANT IMAGE  -->
 
-    <section class="bg-color-main-contactus container-fluid">
-        <div class="row no-gutters">
-            <div class="col-md-4 restaurant-image" href="index.html"></div>
-            <div class="col-md-8 col-8-padding"> 
+	<section class="bg-color-main-contactus container-fluid">
+		<div class="row no-gutters">
+			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-restaurant">
-					<strong>~ Our Restaurant ~</strong>
+                <p><strong><a name="restaurant">~ Our Restaurant ~</a></strong></p>
+					<!-- <div class="col col-d-sm-display d-md-block restaurant-image"></div> -->
 				</h4>
 				<div class="card text-white bg-contact-us-details bg-dark text-center card-body">
 					<div class="card-body">
 						<strong>Mon - Sat: Breakfast</strong> 7.30am - 11.00am, <strong>Lunch:</strong> Midday - 2.30pm,
 						<strong>Dinner:</strong> 5.30pm - 10.00pm.<br>
-						<strong>Sunday: Breakfast</strong> 8.00am - 11.00am, <strong>Dinner:</strong> Midday - 9.00pm. <br>
-                        <strong> Direct Line:</strong> 042-9800000 (ext.2)
+						<strong>Sunday: Breakfast</strong> 8.00am - 11.00am, <strong>Dinner:</strong> Midday - 9.00pm.
+						<br>
+						<strong> Direct Line:</strong> 042-9800000 (ext.2)
+						<br>
+
+						<!--  BOOKING REQUEST BUTTON--><br>
+						<ul>
+							<li class="btn btn-light hvr-float-shadow sign-up-button-text text-center"
+								data-toggle="modal" data-target="#bookingformModal">
+								Booking Request.
+							</li>
+						</ul>
+
+					</div>
+				</div>
+
+				<!-- BOOKING REQUEST FORM (MODAL) CODE -->
+
+				<div class="modal" tabindex="-1" role="dialog" id="bookingformModal">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">
+									Please provide your booking request details for 'Under The Arch'
+									<i class="fas fa-archway"></i>
+								</h5>
+								<button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+
+										<label for="exampleInputName1"
+                    ><strong>Reservation Name:</strong></label>
+										<input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputName"
+                    aria-describedby="nameHelp"
+                    placeholder="Enter reservation name"
+                    required/>
+
+										<label for="exampleInputEmailReservation"
+                    ><strong>Email address:</strong></label>
+										<input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmailReservation"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required/>
+
+										<label for="exampleInputDate"
+                    ><strong>Reservation Date:</strong></label>
+										<input
+                    type="date"
+                    class="form-control"
+                    id="exampleInputDate"
+                    aria-describedby="dateHelp"
+                    placeholder="Enter requested reservation date"
+                    required/>
+
+										<label for="exampleInputTime"
+                    ><strong>Reservation Time:</strong></label>
+										<input
+                    type="time"
+                    class="form-control"
+                    id="exampleInputTime"
+                    aria-describedby="emailInputTime"
+                    placeholder="Enter requested reservation time"
+                    required/>
+
+										<br>
+										<strong> Our reservation staff will contact you within 1 hr of receipt of your reservation request. </strong>
+										<br>
+										<small id="emailHelpReservation" class="form-text text-muted"
+                    >Your email address will not be shared.</small>
+									</div>
+									<button type="reset" class="btn btn-info">Reset</button>
+									<button type="submit" class="btn btn-info">Submit</button>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -170,14 +334,16 @@
 						Our restaurant and award winning team select the finest seasonal and
 						local produce and combine it with their skill & flair offering a
 						wide range of options for all foodies. For the meat lover, pescitarian, flexitarian,
-						vegetarian or vegan we cater for all. 
-				    </p>
+						vegetarian or vegan we cater for all.
+					</p>
 
-                	<p class="col cols-3 description-wording-display">
-					Be it a fresh salad, a juicy burger, a sizzling stirfry, a mouth-watering steak, fish, vegan & vegetarian options.
-                    Ourt chefs hit the markets early to get the best of produce as well as delivery from local farmers and suppliers, 
-                    we offer the best of locally grown, seasonal foods available.
-                    </p><br>
+					<p class="col cols-3 description-wording-display">
+						Be it a fresh salad, a juicy burger, a sizzling stirfry, a mouth-watering steak, fish, vegan &
+						vegetarian options.
+						Ourt chefs hit the markets early to get the best of produce as well as delivery from local
+						farmers and suppliers,
+						we offer the best of locally grown, seasonal foods available.
+					</p><br>
 
 					<p class="col cols-3 description-wording-display">
 						As our kitchen staff come from all over the globe, we can cook your
@@ -185,45 +351,64 @@
 						Don't be shy or afraid to ask, we will do our best to give you exactly
 						what is craved.
 					</p>
-                </div>
-            </div>
+				</div>
+			</div>
+			<div class="col col-d-sm-block col-d-md-display restaurant-image"></div>
 		</div>
-    </section>
+	</section>
 
-<!-- VENUE DETAILS -->
+	<!-- VENUE DETAILS -->
 
 	<!-- VENUE IMAGE  -->
 
-    <section class="bg-color-main-contactus container-fluid">
-        <div class="row no-gutters">
-            <div class="col-md-8 col-8-padding">
+	<section class="bg-color-main-contactus container-fluid">
+		<div class="row no-gutters">
+			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-venue">
-					<strong>~ Our Venue ~</strong>
+					<p><strong><a name="venue">~ Our Venue ~</a></strong></p>
+					<div class="col col-d-sm-display d-md-none venue-image"></div>
 				</h4>
 
 				<div class="card text-white bg-dark text-center card-body">
 					<div class="card-body">
 						<strong>Fri - Sat:</strong> 10.00pm - 03.00am. <br>
                 Please check our website/social media for all events and bank holiday weekend hours. <br>
-                <strong> Direct Line:</strong> 042-9800000 (ext.3) ***after 7pm daily***
-            </div>
+						<strong> Direct Line:</strong> 042-9800000 (ext.3) ***after 7pm daily***
 					</div>
 
-					<div class="row">
-						<p class="col cols-3 description-wording-display">
-							At 800 capacity (standing) & 550 capacity (seated) our venue is a
-							perfect location to catch a wide variety of local & intl. music 
-                            acts.<br>
+					<!-- EVENT LISTINGS BUTTON-->
+					<ul>
+						<li class="btn btn-light hvr-float-shadow button-font text-center" data-toggle="modal"
+							data-target="#eventsModal">
+							<a class="nav-link" href="assets/listings/june_events_listing.pdf" target="_blank">Event
+								Listings / Download</a>
+						</li>
+					</ul>
 
-                             We  regularly host some of the finest local, national & intl. 
+					<!-- EVENT LISTINGS (MODAL) CODE -->
+
+					<div class="modal" tabindex="-1" role="dialog" id="eventsModal">
+						<div class="modal-dialog" role="document">
+						</div>
+
+					</div>
+				</div>
+
+				<div class="row">
+					<p class="col cols-3 description-wording-display">
+						At 800 capacity (standing) & 550 capacity (seated) our venue is a
+						perfect location to catch a wide variety of local & intl. music
+						acts.<br>
+
+                             We  regularly host some of the finest local, national & intl.
                              artists and DJ's across rock, pop, country & dance. </p><br>
 
 						<p class="col cols-3 description-wording-display">
-							Singers such as Brezzie, bands like Ashe, Carona's, Republic1, Sam Handwich 
-                            and the Blizzurd's as well as superstar DJ's like Marc Kavanagh, Mr. Sprung, 
-                            Dave Pierce, Carl Coxz, Sascha & Digweeed, Armind von Burren, Podge vanDyke,
-                            T-esto & Pol Oakenhold have all performed here. 
-                            </p><br>
+							Singers such as Brezzie, bands like Ashe, Carona's, Republic1, Sam Handwich
+							and the Blizzurd's as well as superstar DJ's like Marc Kavanagh, Mr. Sprung,
+							Dave Pierce, Carl Coxz, Sascha & Digweeed, Armind von Burren, Podge vanDyke,
+							T-esto & Pol Oakenhold have all performed here.
+						</p><br>
 
 						<p class="col cols-3 description-wording-display">
 							Drama, classical and theatre groups (local, national &
@@ -231,79 +416,78 @@
                             Performances of the Leaving Cert curriculum drama's are
                              also shown here each year.
                             </p>
-                            <br>
-                            <p></p>
-                        </div>
-                    </div>
-				    <div class="col-md-4 venue-image" href="index.html"></div>
-                </div>
-                
-                <div><p><h6 class="text-center">Please sign-up or follow us on social media to keep up to 
-                        date with who is coming soon.</h6></p></div>
+							<br>
+							<p></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-d-sm-none d-md-display venue-image" href="index.html"></div>
+		</div>
+
+		<div>
+			<p>
+				<h6 class="text-center">Please sign-up or follow us on social media to keep up to
+					date with who is coming soon.</h6>
+			</p>
+		</div>
 	</section>
 
 
-<footer>
+	<footer>
 
-	<!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
+		<!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
 
 
-	<footer class="bg-color-navbar-footer container-fluid fixed-bottom"> <!-- <footer id="footer-color" class="container-fluid no-gutters"> -->
-		<div class="row container-fluid">                    <!-- <div id="footer" class="row no-gutters">  -->
-			<div class="col-sm-12 text-center text-white">         <!-- <div class="col-sm-12 footer-text text-center"> -->
-				<ul style="list-style-type: none;">                 <!-- <ul style="list-style-type: none;">-->
-					<strong><p>              
+		<footer class="bg-color-navbar-footer container-fluid fixed-bottom">
+			<div class="row container-fluid">
+				<div class="col-sm-12 text-center text-white">
+					<ul style="list-style-type: none;">
+						<strong><p>              
                 </p><li>Under The Arch, The Cross, Riverwalk, Ardee, Co.Louth</li>
                 <li><i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
               <p></p></strong>
-				</ul>
+					</ul>
 
-				<ul class="list-inline social-links-footer text-center">
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.facebook.com">
-							<i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.instagram.com">
-							<i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://twitter.com">
-							<i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.tripadvisor.com">
-							<i class="fab fa-tripadvisor fa-2x" aria-hidden="true"></i>
-							<span class="sr-only">Tripadvisor</span>
-						</a>
-					</li>
-				</ul>
+					<ul class="list-inline social-links-footer text-center">
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.facebook.com">
+								<i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.instagram.com">
+								<i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://twitter.com">
+								<i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.tripadvisor.com">
+								<i class="fab fa-tripadvisor fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Tripadvisor</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
+		</footer>
+
 	</footer>
 
-</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>
