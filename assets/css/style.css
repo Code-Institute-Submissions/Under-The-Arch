@@ -3,7 +3,7 @@
 /* ------------------------------ Colours */
 
 .bg-color-navbar-footer{
-    background-color: #141414;
+    background-color: #111111;
 }
 
 .bg-color-main-contactus{
@@ -14,7 +14,7 @@
 
 .top-contacts-bar{
     background-color: #a59180;
-    font: #141414;
+    font: #111111;
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
@@ -115,7 +115,7 @@
 }
 
 .button-font{
-    font: #141414;
+    font: #111111;
 }
 
 .ul-navbar-links{
