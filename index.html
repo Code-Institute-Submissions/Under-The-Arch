@@ -23,9 +23,7 @@
 	<div class="top-contacts-bar text-center">
 		<!-- <div class="col-sm-3 col-md-6 col-lg-12 footer-text text-center"> -->
 		<ul style="list-style-type: none" class="ul-navbar-links">
-			<strong><p>              
-</p><li>The Cross, Riverwalk, Ardee, Co.Louth <i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
-<p></p></strong>
+		<li>The Cross, Riverwalk, Ardee, Co.Louth <i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
 		</ul>
 	</div>
 
@@ -51,7 +49,7 @@
 
 			<!-- SIGNUP BUTTON-->
 			<ul>
-				<li class="btn btn-light hvr-float-shadow sign-up-button-text text-center button-position"
+				<li class="btn btn-light hvr-float-shadow text-center button-position"
 					data-toggle="modal" data-target="#signUpModal">
 					Sign Up!
 				</li>
@@ -63,11 +61,10 @@
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title ">
-								Let us keep you up to date with everything happening 'Under The Arch'
+							<h5 class="modal-title">Let us keep you up to date with everything happening 'Under The Arch'
 								<i class="fas fa-archway"></i>
 							</h5>
-							<button
+						    <button
                 type="button"
                 class="close"
                 data-dismiss="modal"
@@ -79,21 +76,21 @@
 						<div class="modal-body">
 							<form>
 								<div class="form-group">
-									<label for="exampleInputEmailSignUp"
-                    ><strong>Email address</strong></label>
+									<label for="exampleInputEmail1"   
+                    ><strong>Email address</strong></label>                 label for="exampleInputEmailSignUp" 
 									<input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmailSignUp"
+                    id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="Enter email"
                     required
                   />
-									<small id="emailHelp" class="form-text text-muted"
-                    >Your email address will not be shared.</small>
+									<small id="emailHelp" class="form-text"  
+                    >Your email address will not be shared.</small>                     
 								</div>
-								<label for="entertainment sign-up-choice-color">
-                  </label>
+							<!--	    <label for="entertainment">    <label for="entertainment sign-up-choice-color">
+                  </label> -->
 								<label for="general">General</label>
 								<input
                   type="radio"
@@ -134,18 +131,19 @@
 				</div>
 			</div>
         </div>
+
 	</nav>
 
 </header>
 
-<body class="page-margins">
+<body>
 
 
 	<!-- ABOUT US & IMAGE  -->
 
 	<section class="bg-color-main-contactus container-fluid no-gutters">
 		<div class="row no-gutters">
-			<div class="col-md-4 location-top-right" href="index.html"></div>
+			<a href="index.html" class="col-md-4 location-top-right"></a>
 			<div class="col-md-4 our-story-section">
 				<h4 class="text-center uppercase text-format-aboutus">
 					<strong>~ Our Story ~</strong>
@@ -165,7 +163,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-4 location-top-left" href="index.html"></div>
+			<a href="index.html" class="col-md-4 location-top-left"></a>
 		</div>
 
 	</section>
@@ -178,7 +176,7 @@
 		<div class="row no-gutters">
 			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-bar">
-					<p><strong><a name="bars">~ Our Bars ~</a></strong></p>
+					<strong><a name="bars">~ Our Bars ~</a></strong>
 				</h4>
 				<div class="col d-sm-display d-md-none bar-welcome-image"></div>
 				<div class="card text-white bg-dark text-center banner-margin card-body ">
@@ -216,7 +214,7 @@
 						</p>
 				</div>
 			</div>
-			<div class="col-md-4 col d-sm-block d-md-display bar-welcome-image" href="index.html"></div>
+			<a class="col-md-4 col d-sm-block d-md-display bar-welcome-image" href="index.html"></a>
 		</div>
 	</section>
 
@@ -228,7 +226,7 @@
 		<div class="row no-gutters">
 			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-restaurant">
-                <p><strong><a name="restaurant">~ Our Restaurant ~</a></strong></p>
+                <strong><a name="restaurant">~ Our Restaurant ~</a></strong>
 					<!-- <div class="col col-d-sm-display d-md-block restaurant-image"></div> -->
 				</h4>
 				<div class="card text-white bg-contact-us-details bg-dark text-center card-body">
@@ -274,43 +272,44 @@
 								<form>
 									<div class="form-group">
 
-										<label for="exampleInputName1"
+										<label for="inputName"
                     ><strong>Reservation Name:</strong></label>
 										<input
                     type="text"
                     class="form-control"
-                    id="exampleInputName"
-                    aria-describedby="nameHelp"
+                    id="inputName"
+                    aria-describedby="inputName"
                     placeholder="Enter reservation name"
                     required/>
 
-										<label for="exampleInputEmailReservation"
+										<label for="inputEmailAddress"
                     ><strong>Email address:</strong></label>
 										<input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmailReservation"
-                    aria-describedby="emailHelp"
+                    id="inputEmailAddress"
+                    aria-describedby="inputEmailAddress"
                     placeholder="Enter email"
                     required/>
+                    <!---->
 
-										<label for="exampleInputDate"
-                    ><strong>Reservation Date:</strong></label>
+										<label for="inputDate"   
+                    ><strong>Reservation Date:</strong></label>         <!-- Type = "date" not supported by all browsers, Polyfill may be required -->
 										<input
-                    type="date"
+                    type="date"                                         
                     class="form-control"
-                    id="exampleInputDate"
-                    aria-describedby="dateHelp"
+                    id="inputDate"
+                    aria-describedby="inputDate"
                     placeholder="Enter requested reservation date"
                     required/>
 
-										<label for="exampleInputTime"
-                    ><strong>Reservation Time:</strong></label>
+										<label for="inputTime"
+                    ><strong>Reservation Time:</strong></label>         <!-- Type = "time" not supported by all browsers, Polyfill may be required -->
 										<input
-                    type="time"
+                    type="time"                                          
                     class="form-control"
-                    id="exampleInputTime"
-                    aria-describedby="emailInputTime"
+                    id="inputTime"
+                    aria-describedby="inputTime"
                     placeholder="Enter requested reservation time"
                     required/>
 
@@ -365,8 +364,8 @@
 		<div class="row no-gutters">
 			<div class="col-md-8 col-8-padding">
 				<h4 class="text-center uppercase text-format-venue">
-					<p><strong><a name="venue">~ Our Venue ~</a></strong></p>
-					<div class="col col-d-sm-display d-md-none venue-image"></div>
+					<strong><a name="venue">~ Our Venue ~</a></strong>
+				<div class="col col-d-sm-display d-md-none venue-image"></div>
 				</h4>
 
 				<div class="card text-white bg-dark text-center card-body">
@@ -420,31 +419,23 @@
 							<p></p>
 				</div>
 			</div>
-			<div class="col-md-4 col-d-sm-none d-md-display venue-image" href="index.html"></div>
+			<a href="index.html" class="col-md-4 col-d-sm-none d-md-display venue-image"></a>
 		</div>
 
 		<div>
-			<p>
-				<h6 class="text-center">Please sign-up or follow us on social media to keep up to
+			<h6 class="text-center">Please sign-up or follow us on social media to keep up to
 					date with who is coming soon.</h6>
-			</p>
 		</div>
 	</section>
 
-
-	<footer>
-
 		<!-- FOOTER DETAILS & SOCIAL MEDIA LINKS-->
-
 
 		<footer class="bg-color-navbar-footer container-fluid fixed-bottom">
 			<div class="row container-fluid">
 				<div class="col-sm-12 text-center text-white">
 					<ul style="list-style-type: none;">
-						<strong><p>              
-                </p><li>Under The Arch, The Cross, Riverwalk, Ardee, Co.Louth</li>
+					    <li>Under The Arch, The Cross, Riverwalk, Ardee, Co.Louth</li>
                 <li><i class="fas fa-phone-square"></i> 042-9800000 <i class="fas fa-envelope"></i> info@underthearch.ie</li>
-              <p></p></strong>
 					</ul>
 
 					<ul class="list-inline social-links-footer text-center">
@@ -476,8 +467,6 @@
 				</div>
 			</div>
 		</footer>
-
-	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
