@@ -23,6 +23,10 @@
     border:1px solid #a59180;
 }
 
+.bg-color-bottom-div{
+    background-color: #a59180;
+}
+
 /* ------------------------------- Special paddings/margins/text */
 
 .our-story-section{
@@ -38,7 +42,7 @@
 .description-wording-display{
     display: inline-block;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
@@ -49,6 +53,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: right;
+}
+
+.below-footer-wording-display{
+    padding-bottom: 75px;
+    text-align: center
 }
 
 .general-text-format{                                                                   
@@ -128,6 +137,13 @@
     max-block-size: 200px;
     float: left;
     font: #ffffff;
+}
+
+.page-bottom-spacing{
+    /*margin-bottom: 200px;*/
+    max-height: 200px;
+    max-width: 200px;
+    background-color: #a59180;
 }
 
 /* ------------------------------ Images */
