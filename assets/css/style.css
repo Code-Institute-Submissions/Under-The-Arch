@@ -7,7 +7,7 @@
 }
 
 .bg-color-main-contactus{
-    background-color: #a59180; /*#b1aeae*/
+    background-color: #f8f2ed; /*#b1aeae*/ /*a591808*/
     height: auto;
     width: auto;
 }
@@ -24,7 +24,7 @@
 }
 
 .bg-color-bottom-div{
-    background-color: #a59180;
+    background-color: #f8f2ed;
 }
 
 /* ------------------------------- Special paddings/margins/text */
@@ -99,15 +99,16 @@ description-wording-display-index{
 
 .general-text-format{                                                                   
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
+    font-weight: bold;
     color: #fafafa;
     text-align: center;
 }
 
 .text-format-aboutus{
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
+    font-weight: bold;
+    font-display: block;
+    color: #111111;
     margin-top: 30px;
     text-align: center;
     vertical-align: center;
@@ -115,8 +116,10 @@ description-wording-display-index{
 
 .text-format-bar{
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
+    font-size: 16px;
+    font-weight: bold;
+    font-display: block;
+    color: #111111;
     margin-top: 0px;
     text-align: right;
     vertical-align: center;
@@ -124,8 +127,10 @@ description-wording-display-index{
 
 .text-format-restaurant{
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
+    font-size: 16px;
+    font-weight: bold;
+    font-display: block;
+    color: #111111;
     margin-top: 0px;
     text-align: right;
     vertical-align: center;
@@ -133,8 +138,10 @@ description-wording-display-index{
 
 .text-format-venue{
     font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
+    font-size: 16px;
+    font-weight: bold;
+    font-display: block;
+    color: #111111;
     margin-top: 0px;
     text-align: right;
     vertical-align: center;
