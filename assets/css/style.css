@@ -136,10 +136,10 @@
 .card-body{
     max-width: 1000px;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px; /* 25px;*/
 }
 
 .btn-light-position{
