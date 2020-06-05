@@ -36,6 +36,7 @@
 .our-story-section{
     max-height: 500px;
     margin: 0px;
+    margin-bottom: 50px;
 }
 
 .left-side{
@@ -52,6 +53,10 @@
     float: right;
     min-width: 50px;
     max-width: 300px;
+}
+
+.d-sm-location-top-right{
+
 }
 
 .description-wording-display{
@@ -71,6 +76,11 @@
     text-align: left;
 }
 
+description-wording-display-index{
+
+}
+
+
 .section-wording-display{
     display: inline-block;
     padding-top: 20px;
@@ -81,7 +91,8 @@
 }
 
 .below-footer-wording-display{
-    padding-bottom: 75px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
     text-align: center;
     font-weight: bold;
 }
@@ -97,7 +108,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fafafa;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     vertical-align: center;
 }
@@ -134,12 +145,13 @@
 }
 
 .card-body{
-    max-width: 1000px;
+    max-width: 500px;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 5px;
     padding-right: 5px; /* 25px;*/
+    align-items: center;
 }
 
 .btn-light-position{
@@ -150,7 +162,7 @@
 }
 
 .button-position{              
-    min-width: 100px;
+    min-width: 300px;
 }
 
 .button-font{
@@ -184,8 +196,8 @@
     background-position: cover;
     background-repeat: no-repeat;
     margin-top: 20px;
-    margin-bottom: -20px;
-    min-height: 500px;
+    margin-bottom: 50px; /* -20px */
+    min-height: 400px;
 }
 
 .location-top-right{
@@ -193,15 +205,15 @@
     background-position: cover;
     background-repeat: no-repeat;
     margin-top: 20px;
-    margin-bottom: 0px;
-    min-height: 500px;
+    margin-bottom: 50px;
+    min-height: 400px;
 }
 
 .bar-welcome-image{
     background: url('../images/bar_welcome_image.jpg');
     background-position: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 400px;
     margin-top: 20px;
     margin-bottom: 0px;   
 }
@@ -211,7 +223,7 @@
     background: url('../images/restaurant(resize2).jpg');
     background-position: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 400px;
     margin-top: 20px;
 }
 
@@ -219,7 +231,7 @@
     background: url('../images/venue(resize).jpg');
     background-position: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 400px;
     margin-top: 20px;
 }
 
