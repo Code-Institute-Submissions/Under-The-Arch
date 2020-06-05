@@ -15,8 +15,8 @@
 .top-contacts-bar{
     background-color: #a59180;
     font: #111111;
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .icon-bar{
@@ -29,6 +29,10 @@
 
 /* ------------------------------- Special paddings/margins/text */
 
+.h6{
+    display: inline
+}
+
 .our-story-section{
     max-height: 500px;
     margin: 0px;
@@ -37,12 +41,30 @@
 .page-margins{
     margin: 0;
     padding: 0; 
+    max-width: auto;
+    max-height: auto;
+}
+
+.left-side{
+    /*margin-right: 50px;*/
+    display: inline;
+    float: left;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+.right-side{
+    /*margin-right: 50px;*/
+    display: inline;
+    float: right;
+    min-width: 50px;
+    max-width: 300px;
 }
 
 .description-wording-display{
     display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
@@ -52,12 +74,23 @@
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: right;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.section-wording-display{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .below-footer-wording-display{
     padding-bottom: 75px;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
 }
 
 .general-text-format{                                                                   
@@ -110,17 +143,21 @@
 .card-body{
     max-width: 1000px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.button-position{               /* Need find better method for this */
-    margin-left: 1200px;
-    margin-top: auto;
-    margin-bottom: auto;
+.btn-light-position{
+    min-width: 33%;
+    max-width: 66%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.button-position{              
+    min-width: 100px;
 }
 
 .button-font{
@@ -129,13 +166,14 @@
 
 .ul-navbar-links{
     text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 2.5px;
 }
 
 .navbar-sections{
-    display: grid;
-    /* display: inline-block; */
-    max-block-size: 200px;
-    float: left;
+    display: inline;
+    min-width: 200px;
     font: #ffffff;
 }
 
