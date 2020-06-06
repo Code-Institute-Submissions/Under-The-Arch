@@ -7,27 +7,47 @@
 }
 
 .bg-color-main-contactus{
-    background-color: #f8f2ed; /*#b1aeae*/ /*a591808*/
+    background-color: #fcebde; /*#b1aeae*/ /*a591808*/ /*f8f2ed*/
     height: auto;
     width: auto;
 }
 
 .top-contacts-bar{
-    background-color: #a59180;
+    background-color: #fcebde;
     font: #111111;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .icon-bar{
-    border:1px solid #a59180;
+    border:1px solid #fcebde;
 }
 
 .bg-color-bottom-div{
-    background-color: #f8f2ed;
+    background-color: #fcebde;
 }
 
 /* ------------------------------- Special paddings/margins/text */
+
+.li{
+    display: inline;
+}
+
+#grid-layout-33 {
+    display:inline-flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width:80%;
+    margin: 0 auto;
+}
+
+#grid-layout-33 > div{
+    background-color: #a59180;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 0 10px #111111;
+}
+
 
 .h6{
     display: inline
@@ -80,11 +100,14 @@ description-wording-display-index{
 
 }
 
+.span{
+    float: right;
+}
 
 .section-wording-display{
     display: inline-block;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
@@ -106,7 +129,7 @@ description-wording-display-index{
 
 .text-format-aboutus{
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+    font-weight: 300;
     font-display: block;
     color: #111111;
     margin-top: 30px;
@@ -117,18 +140,19 @@ description-wording-display-index{
 .text-format-bar{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     font-display: block;
     color: #111111;
     margin-top: 0px;
-    text-align: right;
+    /*text-align: center;*/
+    /*text-align: right;*/
     vertical-align: center;
 }
 
 .text-format-restaurant{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     font-display: block;
     color: #111111;
     margin-top: 0px;
@@ -139,7 +163,7 @@ description-wording-display-index{
 .text-format-venue{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     font-display: block;
     color: #111111;
     margin-top: 0px;
@@ -162,14 +186,12 @@ description-wording-display-index{
 }
 
 .btn-light-position{
-    min-width: 33%;
-    max-width: 66%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .button-position{              
-    min-width: 300px;
+    min-width: 150px;
 }
 
 .button-font{
@@ -184,9 +206,15 @@ description-wording-display-index{
 }
 
 .navbar-sections{
-    display: inline;
-    min-width: 200px;
+    display: inline-block;
+    /*min-width: 500px;*/
     font: #ffffff;
+}
+
+.nav-link{
+    padding: 0;
+    font: #111111;
+
 }
 
 .page-bottom-spacing{
