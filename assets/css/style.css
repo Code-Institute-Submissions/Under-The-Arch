@@ -29,6 +29,13 @@
 
 /* ------------------------------- Special paddings/margins/text */
 
+.navbar-margin-spacing{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
 .li{
     display: inline;
 }
@@ -114,11 +121,18 @@ description-wording-display-index{
 }
 
 .below-footer-wording-display{
-    margin-bottom: 20px;
-    padding-bottom: 60px;
+    /*margin-bottom: 20px;
+    padding-bottom: 20px;*/
     text-align: center;
     font-weight: bold;
+    margin: 0;
 }
+
+.opening-hours-spacing{
+    vertical-align: center;
+
+}
+
 
 .general-text-format{                                                                   
     font-family: "Montserrat", sans-serif;
@@ -186,12 +200,14 @@ description-wording-display-index{
 }
 
 .btn-light-position{
+    display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .button-position{              
     min-width: 150px;
+    border-spacing: 5em;
 }
 
 .button-font{
@@ -280,9 +296,23 @@ description-wording-display-index{
     font-size: 16px;
     text-align: center;
     color: #141414;
-    background: #a59180;
+    background: #fcebde;
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
 }
+
+.social-links-sign-up li a i{
+    width: 32px;
+    height: 32px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #fcebde;
+    background: #141414;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
