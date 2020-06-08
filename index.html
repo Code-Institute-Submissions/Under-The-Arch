@@ -30,12 +30,12 @@
     <header>
       <div class="row container-fluid no-gutters">
         <div class="col cols-sm-3 md-6 lg-12">
-          <div class="top-contacts-bar text-center">
+          <div class="top-contacts-bar text-center mx-auto">
             <ul
               style="list-style-type: none;"
               class="ul-navbar-links text-center"
             >
-              <li>
+              <li class="mx-auto">
                 The Cross, Riverwalk, Ardee, Co.Louth
                 <i class="fas fa-phone-square"></i> 042-9800000
                 <i class="fas fa-envelope"></i> info@underthearch.ie
@@ -45,37 +45,128 @@
 
           <!-- NAVBAR -->
 
+    <!--    LARGER SCREENS-->
+
           <nav
             class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer"
           >
+            <div class="col-md-4">    <!-- <div class="col-md-4 d-block d-md-none"> -->
+            <ul
+              style="list-style-type: none;"
+              class="navbar-margin-spacing mx-auto"
+            >
+              <li> <!-- <li class="list-inline-item"> -->
+                <h4 class="hvr-float-shadow text-white">Bar</h4>
+              </li>
+              <li>
+                <h4 class="hvr-float-shadow text-white">Restaurant</h4>
+              </li>
+              <li>
+                <h4 class="hvr-float-shadow navbar-sections text-white">
+                  Venue
+                </h4>
+              </li>
+            </ul>
+            </div>
+
+            
+            <div class="mx-auto">
             <a
               href="index.html"
               class="navbar-brand nav-link hvr-grow text-white"
             >
-              <h4 class="navbar-margin-spacing">
-                <strong>Under The Arch</strong> <i class="fas fa-archway"></i>
-              </h4>
-            </a>
 
-            <ul
-              style="list-style-type: none;"
-              class="list-inline navbar-margin-spacing"
-            >
-              <li class="list-inline-item">
-                <h6 class="hvr-float-shadow text-white">Bar /</h6>
+              <h2 class="navbar-margin-spacing text-center ">
+                <strong class="navbar-margin-spacing mx-auto">Under The Arch</strong> <i class="fas fa-archway"></i>
+              </h2>
+            </a>
+            <br>
+
+            <br>
+            </div>
+
+            <!--  BOOKING REQUEST BUTTON -->
+            <div>
+            <ul>
+              <li
+                class="btn btn-light hvr-float-shadow sign-up-button-text text-center ml-3"
+                data-toggle="modal"
+                data-target="#bookingformModal"
+              >
+                Restaurant Booking <br />
               </li>
-              <li class="list-inline-item">
-                <h6 class="hvr-float-shadow text-white">Restaurant /</h6>
-              </li>
-              <li class="list-inline-item">
-                <h6 class="hvr-float-shadow navbar-sections text-white">
-                  Venue
-                </h6>
+            </ul>
+            
+
+            <!-- EVENT LISTINGS BUTTON -->
+            <ul>
+              <li
+                class="btn btn-light hvr-float-shadow button-font text-center ml-3"
+                data-toggle="modal"
+                data-target="#eventsModal"
+              >
+                <a
+                  class="nav-link"
+                  href="assets/listings/june_events_listing.pdf"
+                  target="_blank"
+                  >Event Listings</a
+                >
               </li>
             </ul>
 
-            <!--  BOOKING REQUEST BUTTON -->
-            <ul class="list-inline">
+            <!-- SIGNUP BUTTON -->
+            <ul>
+              <li
+                class="btn btn-light hvr-float-shadow text-center button-position ml-3"
+                data-toggle="modal"
+                data-target="#signUpModal"
+              >
+                Sign Up!
+              </li>
+            </ul>
+            </div>
+
+
+<!-- SMALLER SCREENS
+
+ <div class="col cols-4 d-none d-md-block">
+            <ul
+              style="list-style-type: none;"
+              class="list-inline navbar-margin-spacing mx-auto"
+            >
+              <li class="list-inline-item"> <!- <li class="list-inline-item"> ->
+                <h4 class="hvr-float-shadow text-white">Bar /</h4>
+              </li>
+              <li class="list-inline-item">
+                <h4 class="hvr-float-shadow text-white">Restaurant /</h4>
+              </li>
+              <li class="list-inline-item">
+                <h4 class="hvr-float-shadow navbar-sections text-white">
+                  Venue
+                </4>
+              </li>
+            </ul>
+            </div>
+
+            
+            <div class="mx-auto">
+            <a
+              href="index.html"
+              class="navbar-brand nav-link hvr-grow text-white"
+            >
+
+              <h2 class="navbar-margin-spacing">
+                <strong class="navbar-margin-spacing mx-auto text-center">Under The Arch</strong> <i class="fas fa-archway"></i>
+              </h2>
+            </a>
+            <br>
+
+            <br>
+            </div> 
+
+
+            <!--  BOOKING REQUEST BUTTON ->
+            <ul class="list-inline mx-auto">
               <li
                 class="btn btn-light hvr-float-shadow sign-up-button-text text-center list-inline-item ml-3"
                 data-toggle="modal"
@@ -85,7 +176,47 @@
               </li>
             </ul>
 
-            <!-- BOOKING REQUEST FORM (MODAL) CODE -->
+            <!-- EVENT LISTINGS BUTTON ->
+            <ul class="list-inline">
+              <li
+                class="btn btn-light hvr-float-shadow button-font text-center list-inline-item ml-3"
+                data-toggle="modal"
+                data-target="#eventsModal"
+              >
+                <a
+                  class="nav-link"
+                  href="assets/listings/june_events_listing.pdf"
+                  target="_blank"
+                  >Event Listings</a
+                >
+              </li>
+            </ul>
+
+            <!-- SIGNUP BUTTON ->
+            <ul class="list-inline">
+              <li
+                class="btn btn-light hvr-float-shadow text-center button-position list-inline-item ml-3"
+                data-toggle="modal"
+                data-target="#signUpModal"
+              >
+                Sign Up!
+              </li>
+            </ul>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <div>
+            <!--  BOOKING REQUEST BUTTON ->
+            <ul class="list-inline mx-auto">
+              <li
+                class="btn btn-light hvr-float-shadow sign-up-button-text text-center list-inline-item ml-3"
+                data-toggle="modal"
+                data-target="#bookingformModal"
+              >
+                Restaurant Booking <br />
+              </li>
+            </ul>
+
+            <!-- BOOKING REQUEST FORM (MODAL) CODE -> 
 
             <div
               class="modal"
@@ -140,7 +271,7 @@
                         <label for="inputDate"
                           ><strong>Reservation Date:</strong></label
                         >
-                        <!-- Type = "date" not supported by all browsers, Polyfill may be required -->
+                        <!-- Type = "date" not supported by all browsers, Polyfill may be required ->
                         <input
                           type="date"
                           class="form-control"
@@ -153,7 +284,7 @@
                         <label for="inputTime"
                           ><strong>Reservation Time:</strong></label
                         >
-                        <!-- Type = "time" not supported by all browsers, Polyfill may be required -->
+                        <!-- Type = "time" not supported by all browsers, Polyfill may be required ->
                         <input
                           type="time"
                           class="form-control"
@@ -183,7 +314,7 @@
               </div>
             </div>
 
-            <!-- EVENT LISTINGS BUTTON -->
+            <!-- EVENT LISTINGS BUTTON ->
             <ul class="list-inline">
               <li
                 class="btn btn-light hvr-float-shadow button-font text-center list-inline-item ml-3"
@@ -199,13 +330,13 @@
               </li>
             </ul>
 
-            <!-- EVENT LISTINGS (MODAL) CODE -->
+            <!-- EVENT LISTINGS (MODAL) CODE ->
 
             <div class="modal" tabindex="-1" role="dialog" id="eventsModal">
               <div class="modal-dialog" role="document"></div>
             </div>
 
-            <!-- SIGNUP BUTTON -->
+            <!-- SIGNUP BUTTON ->
             <ul class="list-inline">
               <li
                 class="btn btn-light hvr-float-shadow text-center button-position list-inline-item ml-3"
@@ -216,7 +347,7 @@
               </li>
             </ul>
 
-            <!-- SIGNUP (MODAL) CODE -->
+            <!-- SIGNUP (MODAL) CODE ->
 
             <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
               <div class="modal-dialog" role="document">
@@ -336,11 +467,11 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>    -->
           </nav>
         </div>
       </div>
-    </header>
+    </header> 
 
     <!-- ABOUT US & IMAGES  -->
 
@@ -379,8 +510,11 @@
       <div class="row no-gutters">
         <div class="col-md-4 opening-hours-spacing">
           <h4 class="text-center uppercase text-format-bar">
-            <strong class="text-center"> Bar Opening Hours </strong>
+            <strong class="text-center text-format-bar"> ~ Bar Opening Hours ~ </strong>
           </h4>
+          <br>
+          
+          <br>
           <div
             class="card text-white bg-dark text-center banner-margin card-body opening-hours-spacing mx-auto"
           >
@@ -426,7 +560,7 @@
               coffee for you.
             </p>
           </div>
-        </div>
+        </div> 
       </div>
     </section>
 
@@ -434,9 +568,9 @@
 
     <section class="bg-color-main-contactus container-fluid no-gutters">
       <div class="row no-gutters">
-        <div class="col-md-4 d-block d-md-none">
-          <h4 class="text-center uppercase text-format-restaurant">
-            <strong class="text-center"> Restaurant Opening Hours </strong>
+        <div class="col-md-4 d-block d-md-none opening-hours-spacing"">
+          <h4 class="text-center uppercase">
+            <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong>
           </h4>
           <div
             class="card text-white bg-dark text-center banner-margin card-body"
@@ -479,8 +613,9 @@
         </div>
 
         <div class="col-md-4 d-none d-md-block">
-          <h4 class="text-center uppercase text-format-restaurant">
-            <strong class="text-center"> Restaurant Opening Hours </strong>
+
+          <h4 class="text-center uppercase opening-hours-spacing">
+            <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong>
           </h4>
           <div
             class="card text-white bg-dark text-center banner-margin card-body"
