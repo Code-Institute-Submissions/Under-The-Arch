@@ -35,7 +35,7 @@
               style="list-style-type: none;"
               class="ul-navbar-links text-center"
             >
-              <li class="mx-auto">
+              <li class="text-center">
                 The Cross, Riverwalk, Ardee, Co.Louth
                 <i class="fas fa-phone-square"></i> 042-9800000
                 <i class="fas fa-envelope"></i> info@underthearch.ie
@@ -46,38 +46,37 @@
           <!-- NAVBAR -->
 
     <!--    LARGER SCREENS-->
-
+        <div>
           <nav
-            class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer"
-          >
-            <div class="col-md-4">    <!-- <div class="col-md-4 d-block d-md-none"> -->
+            class="text-center navbar-expand-sm bg-color-navbar-footer"
+          > <!--  class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer" -->
+            <div>    <!-- col cols-4 navbar-sections d-none d-md-block --> <!-- <div class="col-md-4 d-block d-md-none"> -->
             <ul
-              style="list-style-type: none;"
-              class="navbar-margin-spacing mx-auto"
+              style="list-style-type: none; list-inline"
+              class="text-center navbar-sections mx-auto"
             >
-              <li> <!-- <li class="list-inline-item"> -->
-                <h4 class="hvr-float-shadow text-white">Bar</h4>
+              <li class="list-inline-item"> <!-- <li class="list-inline-item"> -->
+                <h4 class="hvr-float-shadow navbar-sections text-white">Bar</h4>
               </li>
-              <li>
-                <h4 class="hvr-float-shadow text-white">Restaurant</h4>
+              <li class="list-inline-item">
+                <h4 class="hvr-float-shadow navbar-sections text-white">Restaurant</h4>
               </li>
-              <li>
+              <li class="list-inline-item">
                 <h4 class="hvr-float-shadow navbar-sections text-white">
                   Venue
                 </h4>
               </li>
             </ul>
             </div>
-
             
-            <div class="mx-auto">
+            <div class="navbar-sections mx-auto">
             <a
               href="index.html"
               class="navbar-brand nav-link hvr-grow text-white"
             >
 
-              <h2 class="navbar-margin-spacing text-center ">
-                <strong class="navbar-margin-spacing mx-auto">Under The Arch</strong> <i class="fas fa-archway"></i>
+              <h2 class="text-center ">
+                <strong>Under The Arch</strong> <i class="fas fa-archway"></i>
               </h2>
             </a>
             <br>
@@ -85,87 +84,136 @@
             <br>
             </div>
 
-            <!--  BOOKING REQUEST BUTTON -->
-            <div>
-            <ul>
+            <!-- SIGNUP BUTTON -->
+            <div >
+            <ul style="list-style-type: none; list-inline"
+              class="navbar-margin-spacing mx-auto"
+            >
               <li
-                class="btn btn-light hvr-float-shadow sign-up-button-text text-center ml-3"
+                class="btn btn-light btn-light-position hvr-float-shadow text-center button-position list-inline-item mb-2"
+                data-toggle="modal"
+                data-target="#signUpModal"
+              >
+                Sign Up!
+              </li>
+
+            <!--  BOOKING REQUEST BUTTON -->
+              <li
+                class="btn btn-light btn-light-position hvr-float-shadow sign-up-button-text text-center list-inline-item mb-2"
                 data-toggle="modal"
                 data-target="#bookingformModal"
               >
                 Restaurant Booking <br />
-              </li>
-            </ul>
-            
+              </li>  
 
             <!-- EVENT LISTINGS BUTTON -->
-            <ul>
               <li
-                class="btn btn-light hvr-float-shadow button-font text-center ml-3"
+                class="btn btn-light btn-light-position hvr-float-shadow button-font text-center list-inline-item mb-2"
                 data-toggle="modal"
                 data-target="#eventsModal"
               >
                 <a
-                  class="nav-link"
+                  class="nav-link list-inline-item"
                   href="assets/listings/june_events_listing.pdf"
                   target="_blank"
                   >Event Listings</a
                 >
               </li>
             </ul>
-
-            <!-- SIGNUP BUTTON -->
-            <ul>
-              <li
-                class="btn btn-light hvr-float-shadow text-center button-position ml-3"
-                data-toggle="modal"
-                data-target="#signUpModal"
-              >
-                Sign Up!
-              </li>
-            </ul>
             </div>
+          </nav>
+
+    
 
 
-<!-- SMALLER SCREENS
+<!-- SMALLER SCREENS ->
+    <div class>
+        <!- <nav>  ->
+        <nav class="navbar navbar-light navbar-expand-sm bg-color-navbar-footer">
 
- <div class="col cols-4 d-none d-md-block">
+            <div class="col cols-4 d-block d-md-none">
             <ul
-              style="list-style-type: none;"
-              class="list-inline navbar-margin-spacing mx-auto"
-            >
+                style="list-style-type: none;"
+                class="twxt-center list-inline navbar-margin-spacing mx-auto"
+                >
               <li class="list-inline-item"> <!- <li class="list-inline-item"> ->
-                <h4 class="hvr-float-shadow text-white">Bar /</h4>
+                <h6 class="hvr-float-shadow text-white">Bar /</h6>
               </li>
               <li class="list-inline-item">
-                <h4 class="hvr-float-shadow text-white">Restaurant /</h4>
+                <h6 class="hvr-float-shadow text-white">Restaurant /</h6>
               </li>
               <li class="list-inline-item">
-                <h4 class="hvr-float-shadow navbar-sections text-white">
+                <h6 class="hvr-float-shadow navbar-sections text-white">
                   Venue
-                </4>
+                </h6>
               </li>
             </ul>
             </div>
 
             
-            <div class="mx-auto">
+            <div class="col-md-4 d-block d-md-none mx-auto">
             <a
               href="index.html"
               class="navbar-brand nav-link hvr-grow text-white"
             >
 
-              <h2 class="navbar-margin-spacing">
-                <strong class="navbar-margin-spacing mx-auto text-center">Under The Arch</strong> <i class="fas fa-archway"></i>
-              </h2>
-            </a>
-            <br>
+              <h5 class="navbar-margin-spacing text-center">
+                <strong class="navbar-margin-spacing">Under The Arch</strong> <i class="fas fa-archway"></i>
+              </h5>
+                </a>
+                <br>
 
-            <br>
+                <br>
             </div> 
 
 
-            <!--  BOOKING REQUEST BUTTON ->
+    <!-  BOOKING REQUEST BUTTON ->
+            <div class="col-md-4 d-block d-md-none">
+                <ul>    <!- <ul class="list-inline mx-auto"> ->
+                    <li
+                        class="btn btn-light hvr-float-shadow sign-up-button-text text-center list-inline-item ml-3"
+                        data-toggle="modal"
+                        data-target="#bookingformModal"
+                        >
+                        Restaurant Booking <br />
+                    </li>
+                </ul>
+            </div>
+
+    <!- EVENT LISTINGS BUTTON ->
+                <ul class="col-md-4 d-block d-md-none">
+                    <li
+                        class="btn btn-light hvr-float-shadow button-font text-center list-inline-item ml-3"
+                        data-toggle="modal"
+                        data-target="#eventsModal"
+                        >
+                        <a
+                        class="nav-link"
+                        href="assets/listings/june_events_listing.pdf"
+                        target="_blank"
+                        >Event Listings</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+    <!- SIGNUP BUTTON ->
+                <ul class="col-md-4 d-block d-md-none">
+                    <li
+                        class="btn btn-light hvr-float-shadow text-center button-position list-inline-item ml-3"
+                        data-toggle="modal"
+                        data-target="#signUpModal"
+                        >
+                        Sign Up!
+                        </li>
+                        </ul>
+                </div>
+        </nav>
+        <!- </nav> ->
+    </div>  -->
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+            <!-- BOOKING REQUEST BUTTON
             <ul class="list-inline mx-auto">
               <li
                 class="btn btn-light hvr-float-shadow sign-up-button-text text-center list-inline-item ml-3"
@@ -174,50 +222,10 @@
               >
                 Restaurant Booking <br />
               </li>
-            </ul>
+            </ul> -->
 
-            <!-- EVENT LISTINGS BUTTON ->
-            <ul class="list-inline">
-              <li
-                class="btn btn-light hvr-float-shadow button-font text-center list-inline-item ml-3"
-                data-toggle="modal"
-                data-target="#eventsModal"
-              >
-                <a
-                  class="nav-link"
-                  href="assets/listings/june_events_listing.pdf"
-                  target="_blank"
-                  >Event Listings</a
-                >
-              </li>
-            </ul>
-
-            <!-- SIGNUP BUTTON ->
-            <ul class="list-inline">
-              <li
-                class="btn btn-light hvr-float-shadow text-center button-position list-inline-item ml-3"
-                data-toggle="modal"
-                data-target="#signUpModal"
-              >
-                Sign Up!
-              </li>
-            </ul>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            <div>
-            <!--  BOOKING REQUEST BUTTON ->
-            <ul class="list-inline mx-auto">
-              <li
-                class="btn btn-light hvr-float-shadow sign-up-button-text text-center list-inline-item ml-3"
-                data-toggle="modal"
-                data-target="#bookingformModal"
-              >
-                Restaurant Booking <br />
-              </li>
-            </ul>
-
-            <!-- BOOKING REQUEST FORM (MODAL) CODE -> 
-
+            <!-- BOOKING REQUEST FORM (MODAL) CODE --> 
+        <div>
             <div
               class="modal"
               tabindex="-1"
@@ -271,7 +279,7 @@
                         <label for="inputDate"
                           ><strong>Reservation Date:</strong></label
                         >
-                        <!-- Type = "date" not supported by all browsers, Polyfill may be required ->
+                        <!-- Type = "date" not supported by all browsers, Polyfill may be required -->
                         <input
                           type="date"
                           class="form-control"
@@ -284,7 +292,7 @@
                         <label for="inputTime"
                           ><strong>Reservation Time:</strong></label
                         >
-                        <!-- Type = "time" not supported by all browsers, Polyfill may be required ->
+                        <!-- Type = "time" not supported by all browsers, Polyfill may be required -->
                         <input
                           type="time"
                           class="form-control"
@@ -314,7 +322,8 @@
               </div>
             </div>
 
-            <!-- EVENT LISTINGS BUTTON ->
+
+            <!-- EVENT LISTINGS BUTTON
             <ul class="list-inline">
               <li
                 class="btn btn-light hvr-float-shadow button-font text-center list-inline-item ml-3"
@@ -328,15 +337,15 @@
                   >Event Listings</a
                 >
               </li>
-            </ul>
+            </ul> -->
 
-            <!-- EVENT LISTINGS (MODAL) CODE ->
+            <!-- EVENT LISTINGS (MODAL) CODE -->
 
             <div class="modal" tabindex="-1" role="dialog" id="eventsModal">
               <div class="modal-dialog" role="document"></div>
             </div>
 
-            <!-- SIGNUP BUTTON ->
+            <!-- SIGNUP BUTTON
             <ul class="list-inline">
               <li
                 class="btn btn-light hvr-float-shadow text-center button-position list-inline-item ml-3"
@@ -345,9 +354,9 @@
               >
                 Sign Up!
               </li>
-            </ul>
+            </ul> -->
 
-            <!-- SIGNUP (MODAL) CODE ->
+            <!-- SIGNUP (MODAL) CODE -->
 
             <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
               <div class="modal-dialog" role="document">
@@ -464,14 +473,13 @@
                         </li>
                       </ul>
                     </form>
-                  </div>
+                    </div>
                 </div>
-              </div>
-            </div>    -->
-          </nav>
+            </div> 
         </div>
-      </div>
-    </header> 
+    </div>
+    </div>
+    </header>
 
     <!-- ABOUT US & IMAGES  -->
 
@@ -510,22 +518,28 @@
       <div class="row no-gutters">
         <div class="col-md-4 opening-hours-spacing">
           <h4 class="text-center uppercase text-format-bar">
-            <strong class="text-center text-format-bar"> ~ Bar Opening Hours ~ </strong>
+          <!--  <strong class="text-center text-format-bar"> ~ Bar Opening Hours ~ </strong> -->
           </h4>
           <br>
           
           <br>
           <div
-            class="card text-white bg-dark text-center banner-margin card-body opening-hours-spacing mx-auto"
+            class="card text-white bg-dark text-center banner-margin card-body"
           >
-            <div class="card-body mx-auto">
-              <strong> Opening Hours 
+            <div class="card-body">
+              <strong class="text-center uppercase text-format-bar"> ~ Bar ~ </strong><br>              
+              <strong>          Opening Hours       </strong>
               <br>
 
               <br>
-                      Mon - Thurs:</strong> 10.30am - 11.30pm,
-              <strong>Fri - Sat:</strong> 10.30am - 12.30am,
+              <strong>Mon - Thurs:</strong> 10.30am - 11.30pm, <br>
+
+              <strong>Fri - Sat:</strong> 10.30am - 12.30am, <br>
+
               <strong>Sun:</strong> 12 (midday) - 11.00pm. <br />
+
+              <br>
+
               <strong> Direct Line:</strong> 042-9800000(ext.1)
             </div>
           </div>    
@@ -568,22 +582,32 @@
 
     <section class="bg-color-main-contactus container-fluid no-gutters">
       <div class="row no-gutters">
-        <div class="col-md-4 d-block d-md-none opening-hours-spacing"">
+
+        <div class="col-md-4 d-block d-md-none opening-hours-spacing">
           <h4 class="text-center uppercase">
-            <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong>
+            <!-- <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong> -->
           </h4>
           <div
             class="card text-white bg-dark text-center banner-margin card-body"
           >
             <div class="card-body">
-              <strong> Opening Hours
+              <strong class="text-center uppercase text-format-restaurant"> ~ Restaurant ~ </strong><br>      
+              <strong>          Opening Hours       </strong>
               <br>
-        
-              <br>              
-                      Mon - Thurs:</strong> 10.30am - 11.30pm,
-              <strong>Fri - Sat:</strong> 10.30am - 12.30am,
-              <strong>Sun:</strong> 12 (midday) - 11.00pm. <br />
-              <strong> Direct Line:</strong> 042-9800000(ext.1)
+
+              <br>
+			    <strong>Mon - Sat: <br>
+                Breakfast</strong> 7.30am - 11.00am, <br>
+                <strong>Lunch:</strong> Midday - 2.30pm, <br>
+				<strong>Dinner:</strong>    5.30pm - 10.00pm. <br>
+                <br>
+
+			    <strong>Sunday: <br>
+                Dinner:</strong> Midday - 9.00pm.
+				<br>
+
+                <br>				
+                <strong> Direct Line:</strong> 042-9800000 (ext.2)
             </div>
           </div>
         </div>
@@ -614,21 +638,30 @@
 
         <div class="col-md-4 d-none d-md-block">
 
-          <h4 class="text-center uppercase opening-hours-spacing">
-            <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong>
+          <h4 class="text-center uppercase opening-hours-spacing-restaurant">
+            <!-- <strong class="text-center text-format-restaurant">~ Restaurant Opening Hours ~</strong> -->
           </h4>
           <div
             class="card text-white bg-dark text-center banner-margin card-body"
           >
             <div class="card-body">
-              <strong> Opening Hours
+              <strong class="text-center text-format-restaurant"> ~ Restaurant ~ </strong><br>        
+              <strong>          Opening Hours       </strong>
               <br>
               
-              <br>
-                      Mon - Thurs:</strong> 10.30am - 11.30pm,
-              <strong>Fri - Sat:</strong> 10.30am - 12.30am,
-              <strong>Sun:</strong> 12 (midday) - 11.00pm. <br />
-              <strong> Direct Line:</strong> 042-9800000(ext.1)
+              <br>  
+			    <strong>Mon - Sat: <br>
+                Breakfast</strong> 7.30am - 11.00am, <br>
+                <strong>Lunch:</strong> Midday - 2.30pm, <br>
+				<strong>Dinner:</strong>    5.30pm - 10.00pm. <br>
+                <br>
+
+			    <strong>Sunday: <br>
+                Dinner:</strong> Midday - 9.00pm.
+				<br>
+
+                <br>				
+                <strong> Direct Line:</strong> 042-9800000 (ext.2)
             </div>
           </div>
         </div>
@@ -640,18 +673,23 @@
     <section class="bg-color-main-contactus container-fluid no-gutters">
       <div class="row no-gutters">
         <div class="col-md-4 d-block d-md-none">
-          <h4 class="text-center uppercase text-format-venue">
-            <strong> Venue Opening Hours </strong>
-          </h4>
-          <div class="card text-white bg-dark text-center card-body">
+          <h4 class="text-center uppercase opening-hours-spacing"></h4>
+          <div class="card text-white bg-dark text-center banner-margin card-body">
             <div class="card-body">
-              <strong>Opening Hours: 
+              <strong class="text-center text-format-venue">~ Venue ~</strong><br>
+              <strong>Opening Hours: </strong>
               <br>
 
               <br>
-              Fri - Sat:</strong> 10.00pm - 03.00am. <br />
+              <strong>Fri - Sat:</strong> 10.00pm - 03.00am. 
+              <br>
+              
+              <br>
               Please check our website/social media for all events and bank
-              holiday weekend hours. <br />
+              holiday weekend hours. 
+              <br>
+              
+              <br>
               <strong> Direct Line:</strong> 042-9800000 (ext.3) ***after 7pm
               daily***
             </div>
@@ -690,28 +728,30 @@
         <a href="index.html" class="col-md-4 d-none d-md-block venue-image"></a>
 
         <div class="col-md-4 d-none d-md-block">
-          <h4 class="text-center uppercase text-format-venue">
-            <strong> Venue Opening Hours </strong>
-          </h4>
+          <h4 class="text-center uppercase opening-hours-spacing"></h4>
 
           <div class="card text-white bg-dark text-center card-body">
             <div class="card-body">
-              <strong>Opening Hours: 
+              <strong class="text-center text-format-venue">~ Venue ~</strong><br>
+              <strong>Opening Hours: </strong>
               <br>
 
               <br>
-              Fri - Sat:</strong> 10.00pm - 03.00am. <br />
+              <strong>Fri - Sat:</strong> 10.00pm - 03.00am. 
+              <br>
+              
+              <br>
               Please check our website/social media for all events and bank
-              holiday weekend hours. <br />
+              holiday weekend hours. 
+              <br>
+              
+              <br>
               <strong> Direct Line:</strong> 042-9800000 (ext.3) ***after 7pm
               daily***
             </div>
           </div>
         </div>
       </div>
-      <br>
-
-      <br>
 
       <div class="no-gutters bg-color-bottom-div">
         <h6 class="text-center below-footer-wording-display">
