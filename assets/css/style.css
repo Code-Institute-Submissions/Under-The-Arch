@@ -29,15 +29,6 @@
 
 /* ------------------------------- Special paddings/margins/text */
 
-navbar-margin-spacing{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-}
-
-
-
-
 .li{
     display: inline;
 }
@@ -64,7 +55,7 @@ navbar-margin-spacing{
 
 .our-story-section{
     max-height: 500px;
-    margin: 0px;
+    margin: 15px 0 15px 0;
     margin-bottom: 20px;
 }
 
@@ -83,6 +74,12 @@ navbar-margin-spacing{
     min-width: 50px;
     max-width: 300px;
 }
+
+.ul-navbar-links{
+    margin: 0;
+    padding: 0;
+}
+
 
 .d-sm-location-top-right{
 
@@ -151,7 +148,7 @@ description-wording-display-index{
     font-weight: 300;
     font-display: block;
     color: #111111;
-    margin-top: 30px 10px 5px 0px;
+    margin-top: 30px 20px 5px 0px;
     /*margin-left: 10px;
     margin-right: px; */
     text-align: center;
@@ -163,7 +160,7 @@ description-wording-display-index{
     font-size: 16px;
     font-weight: 500;
     font-display: block;
-    color: #111111;
+    color: #ffffff;
     margin-top: 30px 10px 5px 0px;
     /*margin-left: 10px;
     margin-right: px; */
@@ -176,7 +173,7 @@ description-wording-display-index{
     font-size: 16px;
     font-weight: 500;
     font-display: block;
-    color: #111111;
+    color: #ffffff;
     margin-top: 30px 10px 5px 0px;
     /*margin-left: 10px;
     margin-right: px; */
@@ -187,9 +184,9 @@ description-wording-display-index{
 .text-format-venue{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     font-display: block;
-    color: #111111;
+    color: #ffffff;
     margin-top: 30px 10px 5px 0px;
     /*margin-left: 10px;
     margin-right: px; */
@@ -213,8 +210,12 @@ description-wording-display-index{
 
 .btn-light-position{
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
+    min-width: 100px;
+    /*display: inline-block;*/
+    margin: 0 20px 8px 16px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+    spacing: .5em;
 }
 
 .button-position{              
@@ -231,18 +232,26 @@ description-wording-display-index{
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 2.5px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .navbar-sections{
     display: inline-block;
-    /*min-width: 500px;*/
-    font: #ffffff;
+    text-align: center;
+    min-width: 150px;
+    color: #ffffff;
 }
 
 .nav-link{
     padding: 0;
     color: #111111;
+}
 
+nav >a {
+    display: block;
+    float: none;
+    width: 33%;  
 }
 
 .page-bottom-spacing{
@@ -327,3 +336,23 @@ description-wording-display-index{
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
+}
+
+/* ------------------------------ Media Queries */
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+@media all screen and (max-width: 600px){
+
+    .h2 {
+        font-size: 16px;
+    } 
+}   
