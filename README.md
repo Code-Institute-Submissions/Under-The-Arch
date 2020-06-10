@@ -132,7 +132,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The spelling on the names of most of the musicians/performers listed have been slightly altered but most remain recognisable.
 
 ### Media
-- The photos used in this site were obtained from ...
 
 •	The photos used in this site were obtained from https://unsplash.com/
 
@@ -147,11 +146,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
 •	I received inspiration for this project from my travels and my enjoyment of exploring similar businesses when I’m away on holiday or visiting various areas within Ireland. I would often research such businesses prior to going away and would look for recommendations from people who previously have been as well as from locals the area once I arrive.
 
 •	As I (and most people) enjoy going to places that provide good food, good drinks (both craft and regular) and good entertainment I created a website for a place that I would definitely want to visit if I was in the area or even to go to just because I found out about it. 
+
+•	Elements of this program may also be based upon ideas come across throughout the Code Institute courses text and videos worked thropugh so far. 
 
 The sites and books were used for reference throughout the project are:
 https://codeinstitute.net/
