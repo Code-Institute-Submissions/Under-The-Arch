@@ -1,5 +1,4 @@
 # Under-The-Arch
-MS1 - A pub/restaurant/venue website
 
 This project is for a fictional bar/restaurant/entertainment venue, in a fictional area of a real location.
 
