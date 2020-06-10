@@ -103,13 +103,31 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
+********* 1. Sign-Up button/form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+ 2. Restaurant Booking button/form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    
+ 3. Event Listings button:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+
 ********  Extensive testing was done across many devices through the Dev Tools emulator functionality on Chrome and it looked good across all devices tested. 
 
 It was also tested on large screens as well as laptop screens. 
 The site was also tested across Chrome, Firefox, Edge, Opera, Internet Explorer and looked good and functioned as expected across these browsers as well.
 
 The site was also tested across differing phones in real life scenarios including iPhone5, iPhone XR, iPhone 11, Sony XZ2 and Samsung A10 and again looked good and functioned as expected across these browsers as well. ********
-
 
 
 
@@ -142,9 +160,7 @@ In addition, if it is not obvious, you should also describe how to run your code
    - Restaurant:	https://unsplash.com/photos/fI9Hg6xSJE0 (Miguel Torres)
    - Venue:				https://unsplash.com/photos/jfU3_67YiwQ (Edward Cisneros)
    
-   
-
-### Acknowledgements
+  ### Acknowledgements
 
 •	I received inspiration for this project from my travels and my enjoyment of exploring similar businesses when I’m away on holiday or visiting various areas within Ireland. I would often research such businesses prior to going away and would look for recommendations from people who previously have been as well as from locals the area once I arrive.
 
