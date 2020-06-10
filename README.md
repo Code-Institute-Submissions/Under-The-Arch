@@ -10,6 +10,11 @@ All of the images and details provided are easily updated from within the index.
 The Event listings / Download page is a similarly easily updated page. This page provides the entertainment listings both as being viewable in the browser or downloadable for punters/people/businesses which may find such a listing easy to have saved within their own devices or printed off so they can have it to hand.   
  
 ## UX
+
+This site is a reference point for locals, visitors to the area or people passing through.
+
+As a one page site it contains details across all aspects of the business. 
+The site could be used by people/businesses for situation similar to the ones detailed below.
  
 i)   As the business owner this is a way of providing up to date and relevant information about the business and the services it provides via a concise and appealing website.
 
@@ -34,7 +39,7 @@ In this section, you should go over the different parts of your project, and des
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-Feature 1: I used the inverse colour combination of a very Irish symbol, the colours of a drink of Guinnees.
+Feature 1: I used the inverse colour combination of a very Irish symbol, the colours of a drink of Guinness.Appealing and easy on the eyes.
 
 Feature 2: Flexible design where the website can be viewed across all devices and browsers with no loss of information, lack of functionality or poor user experience.
 
@@ -53,25 +58,17 @@ Feature 8: The up to date event listing is available for either viewing or downl
 ************* Feature 10: Customers or prospective customers can contact the business with any queries, comments or feedback they may have in relation to the business via the Queries / Comments / Feedback form available on the contact us page. **************
 
 
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 - Another feature idea
-When the backend code module shave been completed I would like to add specific responses to both the sign-up and comments sections. This could help the customer feel that the time they had spent signing up and/or leaving a query/comment/feedback with Under The Arch was appreciated. 
+**** When the backend code module shave been completed I would like to add specific responses to both the sign-up and comments sections. This could help the customer feel that the time they had spent signing up and/or leaving a query/comment/feedback with Under The Arch was appreciated.  *****
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-    
+   
 HTML:
 The project uses  HTML for the general layout and text input of the elements on screen. 
 
 CSS:
-The project uses  CSS to style many of the parameters/text input or laid out in HTML.
+The project uses CSS to style many of the parameters/text input or lay-out in HTML.
 
 Bootstrap: (https://getbootstrap.com/)
 The project uses Bootstrap to help with the layout of the site via the grid system as well as setting out of general parameters throughout the site without the need for each specific area to be specifically laid out. 
