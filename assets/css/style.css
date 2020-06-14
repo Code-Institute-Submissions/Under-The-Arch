@@ -14,7 +14,7 @@
 }
 
 .bg-color-main-contactus {
-  background-color: #fcebde; /*#b1aeae*/ /*a591808*/ /*f8f2ed*/
+  background-color: #fcebde;
   height: auto;
   width: auto;
 }
@@ -48,12 +48,6 @@
   min-height: 165px;
 }
 
-#sticky-nav {
-  position: sticky;
-  top: 0;
-  /* z-index: 9999999; */
-}
-
 .navbar-services-padding {
   margin: 0;
   padding: 0;
@@ -81,21 +75,6 @@
   display: inline;
 }
 
-#grid-layout-33 {
-  display: inline-flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3em;
-  width: 80%;
-  margin: 0 auto;
-}
-
-#grid-layout-33 > div {
-  background-color: #a59180;
-  padding: 18px;
-  text-align: center;
-  box-shadow: 0 0 10px #111111;
-}
-
 .h6 {
   display: inline;
 }
@@ -103,12 +82,9 @@
 .our-story-section {
   min-height: 400px;  
   max-height: 550px;
-  /*margin: 15px 0 15px 0;*/
-  /*margin-bottom: 20px;*/
 }
 
 .left-side {
-  /*margin-right: 50px;*/
   display: inline;
   float: left;
   min-width: 50px;
@@ -116,7 +92,6 @@
 }
 
 .right-side {
-  /*margin-right: 50px;*/
   display: inline;
   float: right;
   min-width: 50px;
@@ -128,13 +103,9 @@
   padding: 0;
 }
 
-.d-sm-location-top-right {
-}
-
 .description-wording-display {
   display: inline-block;
   padding-top: 20px;
-  /*padding-bottom: 20px;*/
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -148,9 +119,6 @@
   text-align: left;
 }
 
-description-wording-display-index {
-}
-
 .span {
   float: right;
 }
@@ -160,8 +128,6 @@ description-wording-display-index {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
-  /*margin-left: 10px;
-  margin-right: 10px;*/
 }
 
 .bar-wording-display {
@@ -174,8 +140,6 @@ description-wording-display-index {
 }
 
 .below-footer-wording-display {
-  /*margin-bottom: 20px;
-    padding-bottom: 20px;*/
   text-align: center;
   font-weight: bold;
   margin: 0;
@@ -187,7 +151,6 @@ description-wording-display-index {
   padding-top: 20px;
   padding-bottom: 20px;
   vertical-align: center;
-  /*border-spacing: 5em;*/
 }
 
 .bar-opening-hours-spacing {
@@ -207,11 +170,8 @@ description-wording-display-index {
 .text-format-aboutus {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  /*font-display: block;*/
   color: #111111;
   margin-top: 30px 20px 5px 0px;
-  /*margin-left: 10px;
-    margin-right: px; */
   text-align: center;
   vertical-align: center;
 }
@@ -220,11 +180,8 @@ description-wording-display-index {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  /*font-display: block;*/
   color: #ffffff;
   margin-top: 30px 10px 5px 0px;
-  /*margin-left: 10px;
-    margin-right: px; */
   text-align: center;
   vertical-align: center;
 }
@@ -233,11 +190,8 @@ description-wording-display-index {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  /*font-display: block;*/
   color: #ffffff;
   margin-top: 30px 10px 5px 0px;
-  /*margin-left: 10px;
-    margin-right: px; */
   text-align: center;
   vertical-align: center;
 }
@@ -249,8 +203,6 @@ description-wording-display-index {
   font-display: block;
   color: #ffffff;
   margin-top: 30px 10px 5px 0px;
-  /*margin-left: 10px;
-    margin-right: px; */
   text-align: center;
   vertical-align: center;
 }
@@ -265,18 +217,14 @@ description-wording-display-index {
   margin-left: 5px;
   margin-right: 5px;
   padding-left: 5px;
-  padding-right: 5px; /* 25px;*/
+  padding-right: 5px;
   align-items: center;
 }
 
 .btn-light-position {
   display: inline-block;
   min-width: 100px;
-  /*display: inline-block;*/
   margin: 0 20px 8px 16px;
-  /*margin-left: 20px;
-    margin-right: 20px;*/
-  /*spacing: .5em;*/
 }
 
 .button-position {
@@ -335,7 +283,6 @@ nav > a {
 }
 
 .page-bottom-spacing {
-  /*margin-bottom: 200px;*/
   max-height: 200px;
   max-width: 200px;
   background-color: #a59180;
@@ -348,7 +295,6 @@ nav > a {
   background-position: cover;
   background-repeat: no-repeat;
   margin-top: 5px;
-  /* margin-bottom: 50px; /* -20px */
   min-height: 400px;
 }
 
@@ -357,7 +303,6 @@ nav > a {
   background-position: cover;
   background-repeat: no-repeat;
   margin-top: 5px;
-  /*margin-bottom: 50px;*/
   min-height: 400px;
 }
 
@@ -419,19 +364,9 @@ nav > a {
 
 /* ------------------------------ Media Queries */
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+/* Link to items: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
-@media all screen and (max-width: 600px) {
-  .h2 {
-    font-size: 16px;
-  }
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
+/* ----------- iPhone 4 and 4S ----------- */      
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
