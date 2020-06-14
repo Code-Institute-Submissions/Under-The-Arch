@@ -1,347 +1,418 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Mukta:100,200,300,400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Mukta:100,200,300,400,500,600,700&display=swap");
+
+
+/* ------------------------------ Sheet Spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* ------------------------------ Colours */
 
-.bg-color-navbar-footer{
-    background-color: #111111;
+.bg-color-navbar-footer {
+  background-color: #111111;
 }
 
-.bg-color-main-contactus{
-    background-color: #fcebde; /*#b1aeae*/ /*a591808*/ /*f8f2ed*/
-    height: auto;
-    width: auto;
+.bg-color-main-contactus {
+  background-color: #fcebde; /*#b1aeae*/ /*a591808*/ /*f8f2ed*/
+  height: auto;
+  width: auto;
 }
 
-.top-contacts-bar{
-    background-color: #fcebde;
-    font: #111111;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.top-contacts-bar {
+  background-color: #fcebde;
+  font: #111111;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.icon-bar{
-    border:1px solid #fcebde;
+.icon-bar {
+  border: 1px solid #fcebde;
 }
 
-.bg-color-bottom-div{
-    background-color: #fcebde;
+.bg-color-bottom-div {
+  background-color: #fcebde;
+}
+
+.modal-backdrop{
+    display: none;
 }
 
 /* ------------------------------- Special paddings/margins/text */
 
-.li{
-    display: inline;
+.navbar-top {
+  padding-top: 20px;
+}
+
+.navbar {
+  min-height: 165px;
+}
+
+#sticky-nav {
+  position: sticky;
+  top: 0;
+  /* z-index: 9999999; */
+}
+
+.navbar-services-padding {
+  margin: 0;
+  padding: 0;
+}
+
+/*.bar-section-padding {
+  margin: -20px;
+  /*padding: 10px;*/
+} 
+
+.separation-padding{
+  margin: 10px;
+}
+
+.in-section-margin{
+  margin: 10px;
+  padding: 10px;
+}
+
+.between-section-margin {
+  margin-bottom: 10px;
+}
+
+.li {
+  display: inline;
 }
 
 #grid-layout-33 {
-    display:inline-flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em;
-    width:80%;
-    margin: 0 auto;
+  display: inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  width: 80%;
+  margin: 0 auto;
 }
 
-#grid-layout-33 > div{
-    background-color: #a59180;
-    padding: 18px;
-    text-align: center;
-    box-shadow: 0 0 10px #111111;
+#grid-layout-33 > div {
+  background-color: #a59180;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 0 10px #111111;
 }
 
-
-.h6{
-    display: inline
+.h6 {
+  display: inline;
 }
 
-.our-story-section{
-    max-height: 500px;
-    margin: 15px 0 15px 0;
-    margin-bottom: 20px;
+.our-story-section {
+  min-height: 400px;  
+  max-height: 550px;
+  /*margin: 15px 0 15px 0;*/
+  /*margin-bottom: 20px;*/
 }
 
-.left-side{
-    /*margin-right: 50px;*/
-    display: inline;
-    float: left;
-    min-width: 50px;
-    max-width: 300px;
+.left-side {
+  /*margin-right: 50px;*/
+  display: inline;
+  float: left;
+  min-width: 50px;
+  max-width: 300px;
 }
 
-.right-side{
-    /*margin-right: 50px;*/
-    display: inline;
-    float: right;
-    min-width: 50px;
-    max-width: 300px;
+.right-side {
+  /*margin-right: 50px;*/
+  display: inline;
+  float: right;
+  min-width: 50px;
+  max-width: 300px;
 }
 
-.ul-navbar-links{
-    margin: 0;
-    padding: 0;
+.ul-navbar-links {
+  margin: 0;
+  padding: 0;
 }
 
-
-.d-sm-location-top-right{
-
+.d-sm-location-top-right {
 }
 
-.description-wording-display{
-    display: inline-block;
-    padding-top: 20px;
-    /*padding-bottom: 20px;*/
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 10px;
+.description-wording-display {
+  display: inline-block;
+  padding-top: 20px;
+  /*padding-bottom: 20px;*/
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.description-wording-display-index{
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    text-align: left;
+.description-wording-display-index {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  text-align: left;
 }
 
-description-wording-display-index{
-
+description-wording-display-index {
 }
 
-.span{
-    float: right;
+.span {
+  float: right;
 }
 
-.section-wording-display{
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 10px;
+.section-wording-display {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
 }
 
-.below-footer-wording-display{
-    /*margin-bottom: 20px;
+.bar-wording-display {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.below-footer-wording-display {
+  /*margin-bottom: 20px;
     padding-bottom: 20px;*/
-    text-align: center;
-    font-weight: bold;
-    margin: 0;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
 }
 
-.opening-hours-spacing{
-    padding-top:20px;
-    padding-bottom: 20px;
-    vertical-align: center;
-    border-spacing: 5em;
-
+.opening-hours-spacing {
+  vertical-align: center;
+  align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  vertical-align: center;
+  /*border-spacing: 5em;*/
 }
 
-
-.general-text-format{                                                                   
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    color: #fafafa;
-    text-align: center;
+.bar-opening-hours-spacing {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  vertical-align: center;
+  border-spacing: 5em;
 }
 
-.text-format-aboutus{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    /*font-display: block;*/
-    color: #111111;
-    margin-top: 30px 20px 5px 0px;
-    /*margin-left: 10px;
+.general-text-format {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #fafafa;
+  text-align: center;
+}
+
+.text-format-aboutus {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  /*font-display: block;*/
+  color: #111111;
+  margin-top: 30px 20px 5px 0px;
+  /*margin-left: 10px;
     margin-right: px; */
-    text-align: center;
-    vertical-align: center;
+  text-align: center;
+  vertical-align: center;
 }
 
-.text-format-bar{
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    /*font-display: block;*/
-    color: #ffffff;
-    margin-top: 30px 10px 5px 0px;
-    /*margin-left: 10px;
+.text-format-bar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  /*font-display: block;*/
+  color: #ffffff;
+  margin-top: 30px 10px 5px 0px;
+  /*margin-left: 10px;
     margin-right: px; */
-    text-align: center;
-    vertical-align: center;
+  text-align: center;
+  vertical-align: center;
 }
 
-.text-format-restaurant{
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    /*font-display: block;*/
-    color: #ffffff;
-    margin-top: 30px 10px 5px 0px;
-    /*margin-left: 10px;
+.text-format-restaurant {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  /*font-display: block;*/
+  color: #ffffff;
+  margin-top: 30px 10px 5px 0px;
+  /*margin-left: 10px;
     margin-right: px; */
-    text-align: center;
-    vertical-align: center;
+  text-align: center;
+  vertical-align: center;
 }
 
-.text-format-venue{
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-display: block;
-    color: #ffffff;
-    margin-top: 30px 10px 5px 0px;
-    /*margin-left: 10px;
+.text-format-venue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-display: block;
+  color: #ffffff;
+  margin-top: 30px 10px 5px 0px;
+  /*margin-left: 10px;
     margin-right: px; */
-    text-align: center;
-    vertical-align: center;
+  text-align: center;
+  vertical-align: center;
 }
 
-.col-8-padding{
-    margin-top: 20px;
+.col-8-padding {
+  margin-top: 20px;
 }
 
-.card-body{
-    max-width: 500px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-left: 5px;
-    padding-right: 5px; /* 25px;*/
-    align-items: center;
+.card-body {
+  max-width: 500px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px; /* 25px;*/
+  align-items: center;
 }
 
-.btn-light-position{
-    display: inline-block;
-    min-width: 100px;
-    /*display: inline-block;*/
-    margin: 0 20px 8px 16px;
-    /*margin-left: 20px;
+.btn-light-position {
+  display: inline-block;
+  min-width: 100px;
+  /*display: inline-block;*/
+  margin: 0 20px 8px 16px;
+  /*margin-left: 20px;
     margin-right: 20px;*/
-    /*spacing: .5em;*/
+  /*spacing: .5em;*/
 }
 
-.button-position{              
-    min-width: 150px;
-    border-spacing: 5em;
+.button-position {
+  min-width: 150px;
+  border-spacing: 5em;
 }
 
-.button-font{
-    font: #111111;
+.button-font {
+  font: #111111;
 }
 
-.ul-navbar-links{
-    text-decoration: none;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 2.5px;
-    margin: 0 auto;
-    text-align: left;
+.top-of-button-format {
+  background-color: #fcebde;
+  color: #111111;
 }
 
-.navbar-sections{
-    display: inline-block;
-    text-align: center;
-    min-width: 150px;
-    color: #ffffff;
+.button-format {
+  background-color: #111111;
+  color: #fcebde;
 }
 
-.nav-link{
-    padding: 0;
-    color: #111111;
+.nav {
+  position: fixed;
 }
 
-nav >a {
-    display: block;
-    float: none;
-    width: 33%;  
+.ul-navbar-links {
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 2.5px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.page-bottom-spacing{
-    /*margin-bottom: 200px;*/
-    max-height: 200px;
-    max-width: 200px;
-    background-color: #a59180;
+.navbar-sections {
+  display: inline;
+  text-align: center;
+  min-width: 150px;
+  color: #ffffff;
+}
+
+.nav-link {
+  padding: 0;
+  color: #111111;
+}
+
+nav > a {
+  display: block;
+  float: none;
+  width: 33%;
+}
+
+.page-bottom-spacing {
+  /*margin-bottom: 200px;*/
+  max-height: 200px;
+  max-width: 200px;
+  background-color: #a59180;
 }
 
 /* ------------------------------ Images */
 
-.location-top-left{
-    background: url('../images/location(resize).jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    /* margin-bottom: 50px; /* -20px */
-    min-height: 400px;
+.location-top-left {
+  background: url("../images/location(resize).jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  /* margin-bottom: 50px; /* -20px */
+  min-height: 400px;
 }
 
-.location-top-right{
-    background: url('../images/bar_view_with_seats(resize).jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    /*margin-bottom: 50px;*/
-    min-height: 400px;
+.location-top-right {
+  background: url("../images/bar_view_with_seats(resize).jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  /*margin-bottom: 50px;*/
+  min-height: 400px;
 }
 
-.bar-welcome-image{
-    background: url('../images/bar_welcome_image.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    margin-top: 20px;
+.bar-welcome-image {
+  background: url("../images/bar_welcome_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 20px;
 }
 
-
-.restaurant-image{
-    background: url('../images/restaurant(resize2).jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    margin-top: 20px;
+.restaurant-image {
+  background: url("../images/restaurant(resize2).jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 20px;
 }
 
-.venue-image{
-    background: url('../images/venue(resize).jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    margin-top: 20px;
+.venue-image {
+  background: url("../images/venue(resize).jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 20px;
 }
 
 /* ------------------------------------- Social Media */
 
-.social-links-footer li a i{
-    width: 32px;
-    height: 32px;
-    padding: 8px 0;
-    border-radius: 50%;
-    font-size: 16px;
-    text-align: center;
-    color: #141414;
-    background: #fcebde;
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
+.social-links-footer li a i {
+  width: 32px;
+  height: 32px;
+  padding: 8px 0;
+  border-radius: 50%;
+  font-size: 16px;
+  text-align: center;
+  color: #141414;
+  background: #fcebde;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links-sign-up li a i{
-    width: 32px;
-    height: 32px;
-    padding: 8px 0;
-    border-radius: 50%;
-    font-size: 16px;
-    text-align: center;
-    color: #fcebde;
-    background: #141414;
-    transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
+.social-links-sign-up li a i {
+  width: 32px;
+  height: 32px;
+  padding: 8px 0;
+  border-radius: 50%;
+  font-size: 16px;
+  text-align: center;
+  color: #141414;
+  background: #fcebde;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 /* ------------------------------ Media Queries */
-
-
-
 
 @media only screen and (max-width: 600px) {
   body {
@@ -349,10 +420,146 @@ nav >a {
   }
 }
 
+@media all screen and (max-width: 600px) {
+  .h2 {
+    font-size: 16px;
+  }
+}
 
-@media all screen and (max-width: 600px){
+/* ----------- iPhone 4 and 4S ----------- */
 
-    .h2 {
-        font-size: 16px;
-    } 
-}   
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)
