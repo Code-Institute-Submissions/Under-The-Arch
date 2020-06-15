@@ -66,30 +66,59 @@
               <h2 class="text-center">
                 <strong>Under The Arch</strong> <i class="fas fa-archway"></i>
               </h2>
-              <br /> 
-
-        <!-- DROP DOWN FOR MOBILES / SMALL SCREENS -->
-
-			<button class="navbar-toggler ml-auto navbar-toggler-color dropdown" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon icon-bar"></span>
-        </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto navbar-font d-sm-block d-md-none">
-					<li class="nav-item mr-2 hvr-float-shadow">
-						<a class="nav-link text-white" href=#>Sign-Up!</a>
-					</li>
-					<li class="nav-item mr-2 hvr-float-shadow">
-						<a class="nav-link text-white" href=#>Restaurant Booking </a>
-					</li>
-					<li class="nav-item mr-2 hvr-float-shadow">
-                	    <a class="nav-link text-white" href="assets/listings/june_events_listing.pdf" target="_blank">Event Listings / Download</a>
-					</li>
-				</ul>
-			</div>
-
-            </div>           
+<!--               <br />  -->
 
 <!-- BUTTON CODES -->
+
+    <!-- DROP DOWN FOR MOBILES / SMALL SCREENS -->
+
+	<button class="navbar-toggler navbar-toggler-color dropdown" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+            <div class="d-sm-block d-md-none collapse navbar-collapse" id="navbarNavDropdown"> 
+
+        <!-- SIGNUP BUTTON -->
+
+            <ul style="list-style-type: none;"
+              class="d-sm-block d-md-none navbar-margin-spacing mx-auto"
+            >
+              <li
+                class="btn btn-light btn-light-position-small-screen hvr-float-shadow text-center button-position top-of-button-format mb-2"
+                data-toggle="modal"
+                data-target="#signUpModal"
+              >
+                Sign Up!
+              </li>        
+
+        <!--  BOOKING REQUEST BUTTON -->
+           <li
+                class="btn btn-light btn-light-position-small-screen hvr-float-shadow sign-up-button-text text-center top-of-button-format mb-2"
+                data-toggle="modal"
+                data-target="#bookingformModal"
+              >
+                Restaurant Booking <br />
+              </li>  
+
+        <!-- EVENT LISTINGS BUTTON -->
+              <li
+                class="btn btn-light btn-light-position-small-screen hvr-float-shadow button-font text-center top-of-button-format mb-2"
+                data-toggle="modal"
+                data-target="#eventsModal"
+              >
+                <a
+                  class="nav-link"
+                  href="assets/listings/june_events_listing.pdf"
+                  target="_blank"
+                  >Event Listings</a
+                >
+              </li>
+
+            </ul>
+            </div>
+
+            <br />
+            
+    <!-- LARGER SCREENS -->        
 
             <!-- SIGNUP BUTTON -->
             <div class="d-none d-md-block">                     <!-- To block buttons appearring on small/mobile screens -->
@@ -127,6 +156,7 @@
                 >
               </li>
             </ul>
+            </div>
             </div>
           </nav>
         </div>
@@ -244,7 +274,7 @@
                 <div class="modal-content">
                   <div class="modal-header top-of-button-format">
                     <h5 class="modal-title">
-                      Keep informed with all 'Under The Arch'
+                      Keep informed at 'Under The Arch'
                       <i class="fas fa-archway"></i>
                     </h5>
                     <button
@@ -359,8 +389,6 @@
         </div>
     </div>
     </div>
-    </div>
-    </header>
 
     <!-- ABOUT US & IMAGES  -->
 
