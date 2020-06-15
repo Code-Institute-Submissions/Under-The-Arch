@@ -27,7 +27,8 @@
 }
 
 .icon-bar {
-  border: 1px solid #fcebde;
+  border: 1px solid #111111;
+  background-color: #fcebde
 }
 
 .bg-color-bottom-div {
@@ -233,6 +234,7 @@
 }
 
 .top-of-button-format {
+  text-align: center;
   background-color: #fcebde;
   color: #111111;
 }
