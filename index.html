@@ -27,17 +27,19 @@
   </head>
 
   <body class="navbar-top bg-color-main-contactus">
-    <header class="sticky-top">
+
       <div class="row container-fluid no-gutters">
         <div class="col cols-sm-3 md-6 lg-12">
 
  <!-- NAVBAR -->
-     
-        <div id="sticky-nav">           
+
           <nav 
             class="navbar-light text-center navbar-expand-sm bg-color-navbar-footer">
 
             <div class="navbar-services-padding">   
+
+
+    <!-- HEADINGS -->
             <ul
               style="list-style-type: none;"
               class="list-inline text-center navbar-sections mx-auto"
@@ -58,19 +60,41 @@
             
             <br />
 
+    <!-- BUSINESS NAME -->
+
             <div class="navbar-sections mx-auto navbar-brand nav-link hvr-grow text-white">
-              <h2 class="text-center ">
+              <h2 class="text-center">
                 <strong>Under The Arch</strong> <i class="fas fa-archway"></i>
               </h2>
               <br /> 
+
+        <!-- DROP DOWN FOR MOBILES / SMALL SCREENS -->
+
+			<button class="navbar-toggler ml-auto navbar-toggler-color dropdown" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto navbar-font d-sm-block d-md-none">
+					<li class="nav-item mr-2 hvr-float-shadow">
+						<a class="nav-link text-white" href=#>Sign-Up!</a>
+					</li>
+					<li class="nav-item mr-2 hvr-float-shadow">
+						<a class="nav-link text-white" href=#>Restaurant Booking </a>
+					</li>
+					<li class="nav-item mr-2 hvr-float-shadow">
+                	    <a class="nav-link text-white" href="assets/listings/june_events_listing.pdf" target="_blank">Event Listings / Download</a>
+					</li>
+				</ul>
+			</div>
+
             </div>           
 
-<!-- BUTTON CODE -->
+<!-- BUTTON CODES -->
 
             <!-- SIGNUP BUTTON -->
-            <div >
+            <div class="d-none d-md-block">                     <!-- To block buttons appearring on small/mobile screens -->
             <ul style="list-style-type: none;"
-              class=" list-inline navbar-margin-spacing mx-auto"
+              class="list-inline navbar-margin-spacing mx-auto"
             >
               <li
                 class="btn btn-light btn-light-position hvr-float-shadow text-center button-position list-inline-item top-of-button-format mb-2"
@@ -120,9 +144,8 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header top-of-button-format">
-                    <h5 class="modal-title">
-                      Dining booking request at 'Under The
-                      Arch'
+                    <h5 class="modal-title text-center">
+                      Dining booking request at 'Under The Arch
                       <i class="fas fa-archway"></i>
                     </h5>
                     <button
@@ -291,7 +314,7 @@
                       <br>
 
                       <br>
-                      <ul class="list-inline social-links-sign-up text-center">
+                      <ul class="list-inline social-links-sign-up text-center">             <!-- Addition of social media links to Sign-Up button -->
                         <li class="list-inline-item">
                           <a target="_blank" href="https://www.facebook.com">
                             <i
