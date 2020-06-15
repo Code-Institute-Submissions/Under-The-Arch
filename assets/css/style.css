@@ -10,29 +10,29 @@
 /* ------------------------------ Colours */
 
 .bg-color-navbar-footer {
-  background-color: #111111;
+    background-color: #111111;
 }
 
 .bg-color-main-contactus {
-  background-color: #fcebde;
-  height: auto;
-  width: auto;
+    background-color: #fcebde;
+    height: auto;
+    width: auto;
 }
 
 .top-contacts-bar {
-  background-color: #fcebde;
-  color: #111111;
-  padding-top: 5px;
-  padding-bottom: 5px;
+    background-color: #fcebde;
+    color: #111111;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .icon-bar {
-  border: 1px solid #111111;
-  background-color: #fcebde
+    border: 1px solid #111111;
+    background-color: #fcebde
 }
 
 .bg-color-bottom-div {
-  background-color: #fcebde;
+    background-color: #fcebde;
 }
 
 .modal-backdrop{
@@ -42,16 +42,16 @@
 /* ------------------------------- Special paddings/margins/text */
 
 .navbar-top {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 .navbar {
-  min-height: 165px;
+    min-height: 165px;
 }
 
 .navbar-services-padding {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*.bar-section-padding {
@@ -60,304 +60,316 @@
 } 
 
 .separation-padding{
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .in-section-margin{
-  margin: 10px;
-  padding: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .between-section-margin {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .li {
-  display: inline;
+    display: inline;
 }
 
 .h6 {
-  display: inline;
+    display: inline;
 }
 
 .our-story-section {
-  min-height: 400px;  
-  max-height: 550px;
+    min-height: 400px;  
+    max-height: 550px;
 }
 
 .left-side {
-  display: inline;
-  float: left;
-  min-width: 50px;
-  max-width: 300px;
+    display: inline;
+    float: left;
+    min-width: 50px;
+    max-width: 300px;
 }
 
 .right-side {
-  display: inline;
-  float: right;
-  min-width: 50px;
-  max-width: 300px;
+    display: inline;
+    float: right;
+    min-width: 50px;
+    max-width: 300px;
 }
 
 .ul-navbar-links {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .description-wording-display {
-  display: inline-block;
-  padding-top: 20px;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
+    display: inline-block;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .description-wording-display-index {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 10px;
-  text-align: left;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    text-align: left;
 }
 
 .span {
-  float: right;
+    float: right;
 }
 
 .section-wording-display {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 .bar-wording-display {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .below-footer-wording-display {
-  text-align: center;
-  font-weight: bold;
-  margin: 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
 }
 
 .opening-hours-spacing {
-  display: inline-block;
-  vertical-align: center;
-  text-align: center;
-  margin-top: 0px;
-  padding-top: 0px;
-/*   margin-top: 20px;
-  padding-top: 20px; */
-  padding-bottom: 20px;
-  vertical-align: center;
+    display: inline-block;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    /*   margin-top: 20px;
+    padding-top: 20px; */
+    padding-bottom: 20px;
+    vertical-align: center;
 }
 
 .general-text-format {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #fafafa;
-  text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fafafa;
+    text-align: center;
 }
 
 .text-format-aboutus {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  color: #111111;
-  margin: 0px 20px 5px 20px;
-  text-align: center;
-  vertical-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #111111;
+    margin: 0px 20px 5px 20px;
+    text-align: center;
+    vertical-align: center;
 }
 
 .text-format-bar {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  margin: 30px 10px 5px 0px;
-  text-align: center;
-  vertical-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 30px 10px 5px 0px;
+    text-align: center;
+    vertical-align: center;
 }
 
 .text-format-restaurant {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  margin: 0px 20px 5px 20px;
-  text-align: center;
-  vertical-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0px 20px 5px 20px;
+    text-align: center;
+    vertical-align: center;
 }
 
 .text-format-venue {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  margin: 30px 10px 5px 0px;
-  text-align: center;
-  vertical-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 30px 10px 5px 0px;
+    text-align: center;
+    vertical-align: center;
 }
 
 .col-8-padding {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .card-body {
-  max-width: 500px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  align-items: center;
+    max-width: 500px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
 }
 
 .btn-light-position {
-  display: inline-block;
-  min-width: 100px;
-  margin: 0 20px 8px 16px;
+    display: inline-block;
+    min-width: 100px;
+    margin: 0 20px 8px 16px;
+}
+
+.btn-light-position-small-screen{
+    display: block;
+    min-width: 100px;
+    margin: 0 20px 8px 16px;
 }
 
 .button-position {
-  min-width: 150px;
-  border-spacing: 5em;
+    min-width: 150px;
+    border-spacing: 5em;
+}
+
+.sign-up-button-position {
+    padding-top: 10px 
+    min-width: 150px;
+    border-spacing: 5em;
 }
 
 .button-font {
-  color: #111111;
+    color: #111111;
 }
 
 .top-of-button-format {
-  text-align: center;
-  background-color: #fcebde;
-  color: #111111;
+    text-align: center;
+    background-color: #fcebde;
+    color: #111111;
 }
 
 .button-format {
-  background-color: #111111;
-  color: #fcebde;
+    background-color: #111111;
+    color: #fcebde;
 }
 
 .pop-up-button-format{
-  background-color: #fcebde;
-  color: #111111;
+    background-color: #fcebde;
+    color: #111111;
 }
 
 .nav {
-  position: fixed;
+    position: fixed;
 }
 
 .ul-navbar-links {
-  text-decoration: none;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 2.5px;
-  margin: 0 auto;
-  text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 2.5px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .navbar-sections {
-  display: inline;
-  text-align: center;
-  min-width: 150px;
-  color: #ffffff;
+    display: inline;
+    text-align: center;
+    min-width: 150px;
+    color: #ffffff;
 }
 
 .nav-link {
-  padding: 0;
-  color: #111111;
+    padding: 0;
+    color: #111111;
 }
 
 nav > a {
-  display: block;
-  float: none;
-  width: 33%;
+    display: block;
+    float: none;
+    width: 33%;
 }
 
 .page-bottom-spacing {
-  max-height: 200px;
-  max-width: 200px;
-  background-color: #a59180;
+    max-height: 200px;
+    max-width: 200px;
+    background-color: #a59180;
 }
 
 /* ------------------------------ Images */
 
 .location-top-left {
-  background: url("../images/location(resize).jpg");
-  background-position: right;
-  background-repeat: no-repeat;
-  margin-top: 5px;
-  min-height: 400px;
+    background: url("../images/location(resize).jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    min-height: 400px;
 }
 
 .location-top-right {
-  background: url("../images/bar_view_with_seats(resize).jpg");
-  background-position: left;
-  background-repeat: no-repeat;
-  margin-top: 5px;
-  min-height: 400px;
+    background: url("../images/bar_view_with_seats(resize).jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    min-height: 400px;
 }
 
 .bar-welcome-image {
-  background: url("../images/bar_welcome_image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  margin-top: 20px;
+    background: url("../images/bar_welcome_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-top: 20px;
 }
 
 .restaurant-image {
-  background: url("../images/restaurant(resize2).jpg");
-  background-position: left;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  margin-top: 20px;
+    background: url("../images/restaurant(resize2).jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-top: 20px;
 }
 
 .venue-image {
-  background: url("../images/venue(resize).jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  margin-top: 20px;
+    background: url("../images/venue(resize).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-top: 20px;
 }
 
 /* ------------------------------------- Social Media */
 
 .social-links-footer li a i {
-  width: 32px;
-  height: 32px;
-  padding: 8px 0;
-  border-radius: 50%;
-  font-size: 16px;
-  text-align: center;
-  color: #141414;
-  background: #fcebde;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+    width: 32px;
+    height: 32px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #141414;
+    background: #fcebde;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links-sign-up li a i {
-  width: 32px;
-  height: 32px;
-  padding: 8px 0;
-  border-radius: 50%;
-  font-size: 16px;
-  text-align: center;
-  color: #141414;
-  background: #fcebde;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+    width: 32px;
+    height: 32px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #141414;
+    background: #fcebde;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /* ------------------------------ Media Queries */
