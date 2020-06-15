@@ -21,7 +21,7 @@
 
 .top-contacts-bar {
   background-color: #fcebde;
-  font: #111111;
+  color: #111111;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -59,7 +59,7 @@
 } 
 
 .separation-padding{
-  margin: 10px;
+  padding-bottom: 20px;
 }
 
 .in-section-margin{
@@ -146,18 +146,15 @@
 }
 
 .opening-hours-spacing {
+  display: inline-block;
   vertical-align: center;
-  align: center;
-  padding-top: 20px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+/*   margin-top: 20px;
+  padding-top: 20px; */
   padding-bottom: 20px;
   vertical-align: center;
-}
-
-.bar-opening-hours-spacing {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  vertical-align: center;
-  border-spacing: 5em;
 }
 
 .general-text-format {
@@ -171,7 +168,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #111111;
-  margin-top: 30px 20px 5px 0px;
+  margin: 0px 20px 5px 20px;
   text-align: center;
   vertical-align: center;
 }
@@ -181,7 +178,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  margin-top: 30px 10px 5px 0px;
+  margin: 30px 10px 5px 0px;
   text-align: center;
   vertical-align: center;
 }
@@ -191,7 +188,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  margin-top: 30px 10px 5px 0px;
+  margin: 0px 20px 5px 20px;
   text-align: center;
   vertical-align: center;
 }
@@ -200,9 +197,8 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  font-display: block;
   color: #ffffff;
-  margin-top: 30px 10px 5px 0px;
+  margin: 30px 10px 5px 0px;
   text-align: center;
   vertical-align: center;
 }
@@ -233,7 +229,7 @@
 }
 
 .button-font {
-  font: #111111;
+  color: #111111;
 }
 
 .top-of-button-format {
@@ -292,7 +288,7 @@ nav > a {
 
 .location-top-left {
   background: url("../images/location(resize).jpg");
-  background-position: cover;
+  background-position: right;
   background-repeat: no-repeat;
   margin-top: 5px;
   min-height: 400px;
@@ -300,7 +296,7 @@ nav > a {
 
 .location-top-right {
   background: url("../images/bar_view_with_seats(resize).jpg");
-  background-position: cover;
+  background-position: left;
   background-repeat: no-repeat;
   margin-top: 5px;
   min-height: 400px;
@@ -316,7 +312,7 @@ nav > a {
 
 .restaurant-image {
   background: url("../images/restaurant(resize2).jpg");
-  background-position: cover;
+  background-position: left;
   background-repeat: no-repeat;
   min-height: 400px;
   margin-top: 20px;
@@ -324,7 +320,7 @@ nav > a {
 
 .venue-image {
   background: url("../images/venue(resize).jpg");
-  background-position: cover;
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 400px;
   margin-top: 20px;
