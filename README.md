@@ -51,11 +51,18 @@ Feature 1: I used the inverse colour combination of a very Irish symbol, the col
 
 Feature 2: Flexible design where the website can be viewed across devices and browsers with no loss of information, functionality                  or causing poor user experience.
 
-Feature 3: The navigation bar contains details of the business, what it offers within the business and a selection of buttons providing            quick links to the signing up with the business, restaurant resevrations and event listings. This also scrolls with you as              you scroll down or up through the iste. Customers who sign-up can select only the area or areas they wish to be kept up to              date on if they wish or general if for all.  
+Feature 3: The navigation bar contains details of the business, what it offers within the business and a selection of buttons providing            quick links to the signing up with the business, restaurant resevrations and event listings. This also scrolls with the user            as they scroll down or up through the site. Customers who sign-up can select only the area or areas they wish to be kept up              to date on if they wish or general if for all.  
 
 Feature 4: The navigation bar is contained across the top of the website & scrolls with you as you move down through the site.
            In all screens larger than small screen sizes the navigation bar displays the services, name and the buttons across the top              of the pages. 
-           On smaller screens the navigation bar is reduced to listing the services provided, the name and logo. At these screen sizes              the buttons appear under a navigation button to save on screen real estate.         
+           On smaller screens the navigation bar is reduced to listing the services provided, the name and logo. At these screen sizes              the buttons appear under a navigation button to save on screen real estate.        
+           
+Feature 5: The "Sign-Up!" button allows for the user to sign upo and keep informed of all that is happening at Unbder The Arch or a                more specific list selected by the user.
+
+Feature 6: The "Restaurant Booking" button/form allows fopr a user to request a reservation. Due to limitation in the coding the option            provided is for the user to request a date & time and for the reservatio staff to confirm or discuss with the user.
+
+Feature 7: The "Event Listings" button allows for the user to look at upcoming events as provided by Under The Arch. 
+           This can be veiwed on-line in a new tab opened separately to the Under The Arch page, printed off, downloaded or bookmarked. 
 
 Feature 5: Clicking on any of the images in sections across the website will allow the user to return to the top of the screen without              the need for the user to scroll through the page.
 
@@ -90,10 +97,6 @@ The project uses Font Awesome for images that help dramatise or further emphasis
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. A visitor to the site can see at a glance what is available here as the services "Bar, Restaurant, Venue" are listed across the 
    navigation bar along with the name of the business across mobile and larger device sizes.
