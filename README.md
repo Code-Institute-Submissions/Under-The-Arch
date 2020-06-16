@@ -38,12 +38,8 @@ vi).	As a bus/taxi service provider or local business (bar, restaurant, B&B, hot
 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -65,15 +61,15 @@ Feature 6: The "Restaurant Booking" button/form allows fopr a user to request a 
 Feature 7: The "Event Listings" button allows for the user to look at upcoming events as provided by Under The Arch. 
            This can be veiwed on-line in a new tab opened separately to the Under The Arch page, printed off, downloaded or bookmarked. 
 
-Feature 5: Clicking on any of the images in sections across the website will allow the user to return to the top of the screen without              the need for the user to scroll through the page.
+Feature 8: Clicking on any of the images in sections across the website will allow the user to return to the top of the screen without              the need for the user to scroll through the page.
 
-Feature 6: The footer contains the details and location of the business along with the phone and email contact details. Links to the                popular social media sites as well as Tripadvisor which would be relevant to this business are also provided here.  
+Feature 9: The footer contains the details and location of the business along with the phone and email contact details. Links to the                popular social media sites as well as Tripadvisor which would be relevant to this business are also provided here.  
 
-Feature 7: The card feature from Bootstrap has been used to help provide the opening hours of the services i.e. bar/restaurant/venue in            each section as is relevant. These have been left large and clear in each section. 
+Feature 10: The card feature from Bootstrap has been used to help provide the opening hours of the services i.e. bar/restaurant/venue in             each section as is relevant. These have been left large and clear in each section. 
 
-Feature 8: The up to date event listing is available for either viewing or download from the website allowing for people to look at the            upcoming activities without needing to contact the business directly if they don’t wish to.
+Feature 11: The up to date event listing is available for either viewing or download from the website allowing for people to look at the             upcoming activities without needing to contact the business directly if they don’t wish to.
 
-Feature 9: The footer contains the location, contact details and links to the main social media sites that would be of interest to this            type of business.
+Feature 12: The footer contains the location, contact details and links to the main social media sites that would be of interest to this             type of business.
 
 
 ### Features Left to Implement
@@ -100,7 +96,16 @@ The project uses Font Awesome for images that help dramatise or further emphasis
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Extensive testing was done across many devices through the Dev Tools emulator functionality on Chrome and it looked good across all devices tested. 
+
+It was also tested on large screens as well as laptop screens. 
+The site was also tested across Chrome, Firefox, Edge, and Opera and looked good and functioned as expected across these browsers as well.
+
+In Internet Explorer the website appears okay but the elements within the navigation bar all react unusually when they are hovered over as they move around as they don't do on the other browsers. 
+Most functions can be performed as expected as well, although yoiu need enter bioth the date in format dd/mm/yyyy and the time in order to fill in these sections.
+It was also tested across several older versions of Internet Explorer under "Emulation" under the "Inspect element" heading.
+
+The site was also tested across differing phones in real life scenarios including iPhone5, iPhone XR, iPhone 11, Sony XZ2 and Samsung A10 and again looked good and functioned as expected across these browsers as well.
 
 1. A visitor to the site can see at a glance what is available here as the services "Bar, Restaurant, Venue" are listed across the 
    navigation bar along with the name of the business across mobile and larger device sizes.
@@ -178,15 +183,6 @@ You should also mention in this section any interesting bugs or problems you dis
     
     F. From a business perspective this listing is easily to update/replace and can be changed from month to month or as required with 
        little effort. Also it can only be updated by those with access to the site itself.
- 
-Extensive testing was done across many devices through the Dev Tools emulator functionality on Chrome and it looked good across all devices tested. 
-
-It was also tested on large screens as well as laptop screens. 
-The site was also tested across Chrome, Firefox, Edge, Opera, Internet Explorer and looked good and functioned as expected across these browsers as well.
-
-The site was also tested across differing phones in real life scenarios including iPhone5, iPhone XR, iPhone 11, Sony XZ2 and Samsung A10 and again looked good and functioned as expected across these browsers as well. ********
-
-
 
 ## Deployment
 
@@ -235,6 +231,22 @@ https://forums.techguy.org/
 https://www.google.ie/
 https://www.youtube.com/
 
-The books were used for reference throughout the project are:
+Links which I used/referenced include:
+Love Running from Code Institute
+Whiskey project from Code Institute
+Resume project from Code Institute
+Code With Dary (YouTube)
+https://www.computerhope.com/issues/ch000074.htm - How to create a link with no underline in HTML
+https://stackoverflow.com/questions/40476201/bootstrap-4-hidden-classes-only-hide-on-small-screens
+Bootstap: https://getbootstrap.com/docs/4.5/layout/grid/#row-columns
+https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
+https://stackoverflow.com/questions/45410467/how-to-align-element-to-bottom-in-a-bootstrap-column
+https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
+https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+https://stackoverflow.com/questions/14540102/how-to-remove-white-border-around-the-div
+https://stackoverflow.com/questions/17386304/change-height-of-footer-css
+https://forums.techguy.org/threads/solved-html-radio-buttons-are-allowing-multiple-instead-of-single-selection.909720/
+
+Books used for reference during the project were:
 - Bootstrap 4 Visual Learning Guide by Mike Ludo
 - Learn CSS In One Day and Learn It Well by Jamie Chan
