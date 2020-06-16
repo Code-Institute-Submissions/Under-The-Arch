@@ -58,6 +58,7 @@ Feature 4: The navigation bar is contained across the top of the website & scrol
            On smaller screens the navigation bar is reduced to listing the services provided, the name and logo. At these screen sizes              the buttons appear under a navigation button to save on screen real estate.        
            
 Feature 5: The "Sign-Up!" button allows for the user to sign upo and keep informed of all that is happening at Unbder The Arch or a                more specific list selected by the user.
+           This form also contains links to the main social media sites that would be of interest to this type of business.
 
 Feature 6: The "Restaurant Booking" button/form allows fopr a user to request a reservation. Due to limitation in the coding the option            provided is for the user to request a date & time and for the reservatio staff to confirm or discuss with the user.
 
@@ -72,10 +73,13 @@ Feature 7: The card feature from Bootstrap has been used to help provide the ope
 
 Feature 8: The up to date event listing is available for either viewing or download from the website allowing for people to look at the            upcoming activities without needing to contact the business directly if they don’t wish to.
 
+Feature 9: The footer contains the location, contact details and links to the main social media sites that would be of interest to this            type of business.
+
 
 ### Features Left to Implement
 
-When the backend code modules have been completed I would like to add specific responses to the sign-up and provide a more-complete reservation service where the reservation could be checked and confirmed back if available or not.
+When further modules and backend modules have been completed I would like to add specific responses to the sign-up and provide a more 
+complete reservation service where the reservation could be checked and confirmed back if available or not.
 This could help the customer feel that the time they had spent signing up and/or making a reservation with Under The Arch was appreciated.  
 
 ## Technologies Used
@@ -192,8 +196,6 @@ In particular, you should provide all details of the differences between the dep
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
