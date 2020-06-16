@@ -1,10 +1,11 @@
 # Under-The-Arch
 
-This project is for a fictional bar/restaurant/entertainment venue, in a fictional area of a real location.
+This project is for a fictional bar/restaurant/entertainment venue, in a fictional area of a real Irish town.
 
 The inspiration for the name came the outdoor image used, with the entrance door appearing as if it's under the arch, albeit on the far side of the canal as well as the arch image taken from FontAwesome.
 
-This a one page (index.html) site detailing the services offered as well as buttons for "Signing Up", "Restaurant Reservation" and "Event Listings" in the navigation bar for ease of access if you know what you want when you enter the site without needing to scroll any further. This main page introduces the business and provides details of its history up to the current day. The bar, restaurant and venue sections provide details of their opening hours as well as services provided. Each of these areas contains a large inviting image from within the location itself to entice customers to visit. Each of these images can be clicked on to return to the top of the page.
+This a one page (index.html) site detailing the services offered.
+Buttons to "Sign-U!", "Restaurant Reservation" and "Event Listings" are also provided the navigation bar for ease of access if you know what you want when you enter the site without needing to scroll any further. This main page introduces the business and provides details of its history up to the current day. The bar, restaurant and venue sections provide details of their opening hours as well as services provided. Each of these areas contains a large inviting image from within the location itself to entice customers to visit. Each of these images can be clicked on to return to the top of the page.
 
 All of the images and details provided are easily updated from within the index.html pages. 
 The Event listings / Download page is a similarly easily updated page. This page provides the entertainment listings both as being viewable in the browser or downloadable for punters/people/businesses which may find such a listing easy to have saved within their own devices or printed off so they can have it to hand.   
@@ -87,11 +88,14 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. A visitor to the site can see at a glance what is available here as the services "Bar, Restaurant, Venue" are listed across the 
+   navigation bar along with the name of the business across mobile and larger device sizes.
+
+2. For devices larger than mobile devices the user is provided with a list of buttons/options for "Sign-Up!, "Restaurant Bookings" and
+   "Event Listings" so these option are easily accessible on arrival to the site.
+
+3. In order to save screen real estate on mobile/smaller screen devices these buttons are placed within a navigation button but once 
+   this button is clicked the dropdown provides the buttons as offered to those users using larger screens.  
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -100,26 +104,71 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-********* 1. Sign-Up button/form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Sign-Up button/form:
+    A. From the main page (large screen) the user can click on the "Sign-Up" button in the navbar. 
+       A(i) On smaller screens i.e. mobile devices the buttons are replaced by a navigation buttopn to save on screen real estate and 
+            upon clicking the navigation button the list ofg buttons will appear on screen and the used can select from this list.  
+            
+    B. Here the user can enter their email and select the checkboxes of exactly what they want to be kept informed about.
+    
+    C. If the user tries to submit the form without a valid email address format an error message about the required fields appears.
+    
+    D. If the user tries to submit the form without a selection made i.e. "General", "Bar" etc. a relevant error message appears.
+    
+    E. If the user wishes to change their selection prior to submission they can click the "Reset" button to reset the form.
+    
+    F. The "Submit" button is there top enable the user to submit their contact information and selection(s).
+    
+    G. The "x" in the top corner can be clicked upon at any stage while in the form to close it down.
+    
+    H. Due to no back-end code after submission no success message appears.
 
  2. Restaurant Booking button/form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+     A. From the main page (large screen) the user can click on the "Restaurant Booking" button in the navbar. 
+       A(i) On smaller screens i.e. mobile devices the buttons are replaced by a navigation button to save on screen real estate. 
+            Upon clicking the navigation button the list of buttons will appear on screen in a dropdown and the user can select the   
+            "Restaurant Booking" button from this list. 
+            
+    B. Here the user can enter their name, email address, date and time for their reservation request to be contacted by the  
+       reservation staff re: their reservation request.
+       
+    C. If the user tries to submit the form without a reservation name an error message about this required field appears.
     
- 3. Event Listings button:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-
-********  Extensive testing was done across many devices through the Dev Tools emulator functionality on Chrome and it looked good across all devices tested. 
+    D. If the user tries to submit the form without a valid email address format an error message about this required field appears.
+        
+    E. If the user tries to submit the form without a reservation date an error message about this required field appears.
+    
+    F. If the user tries to submit the form without a reservation time an error message about this required field appears.
+    
+    G. If the user wishes to change their information or selection prior to submission rather tyhan chnageing each field they can click 
+       the "Reset" button to reset the form.
+    
+    H. The "Submit" button is there top enable the user to submit their contact information and request details.
+    
+    I. The "x" in the top corner can be clicked upon at any stage while in the form to close it down.
+    
+    J. Due to no back-end code after submission no success message appears.
+    
+ 3. Event Listings button/page:
+ 
+    A. From the main page (large screen) the user can click on the "Event Listings" button in the navbar. 
+       A(i) On smaller screens i.e. mobile devices the buttons are replaced by a navigation button to save on screen real estate. 
+            Upon clicking the navigation button the list of buttons will appear on screen in a dropdown and the user can select the   
+            "Event Listings" button from this list. 
+            
+    B. This will open up the "Event Listings" in a separate tab to the "Under The Arch" page which will also remain open.
+    
+    C. From the newly opened tab the user will be able to  look through the information to se eif their are any bands, DJ's, performers,        appearring that they would like to see. 
+    
+    D. The user will also be able to save down or print-off the listing as required should they need to.
+    
+    E. Even if the user unintentionally closes out of this screen to soon thye will still have the "Under The Arch" tab they started 
+       from open in their browser.  
+    
+    E. From a business perspective this listing is easily to update/replace and can be changed from month to month or as required with 
+       little effort. Also it can only be updated by those with access to the site itself.
+ 
+Extensive testing was done across many devices through the Dev Tools emulator functionality on Chrome and it looked good across all devices tested. 
 
 It was also tested on large screens as well as laptop screens. 
 The site was also tested across Chrome, Firefox, Edge, Opera, Internet Explorer and looked good and functioned as expected across these browsers as well.
@@ -163,7 +212,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 •	As I (and most people) enjoy going to places that provide good food, good drinks (both craft and regular) and good entertainment I created a website for a place that I would definitely want to visit if I was in the area or even to go to just because I found out about it. 
 
-•	Elements of this program may also be based upon ideas come across throughout the Code Institute courses text and videos worked thropugh so far. 
+•	Elements of the code within this program will also contain ideas and code I came across throughout the Code Institute courses text and videos worked through so far. 
 
 The sites and books were used for reference throughout the project are:
 https://codeinstitute.net/
