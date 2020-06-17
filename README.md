@@ -89,11 +89,14 @@ The card functionality was also used to help the opening hours sections of the d
 Font Awesome: (https://fontawesome.com/)
 The project uses Font Awesome for images that help dramatise or further emphasise an element of the business i.e. Under the Arch beside the image of a large arch.
 
+Balsamiq: https://balsamiq.com/
+This project uses Balsamiq for wire frames so the layout could be worked out prior to the building of the website. 
+
 W3C HTML  Validation Service: https://validator.w3.org/
-This was used to check the HTML code in the project.
+This site was used to check the HTML code in the project.
 
 W3C CSS Validation Service: http://jigsaw.w3.org/css-validator/
-This was used to check the CSS code in the project.
+This site was used to check the CSS code in the project.
 
 ## Testing
 
