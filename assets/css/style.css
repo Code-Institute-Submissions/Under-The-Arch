@@ -9,7 +9,7 @@
 
 /* ------------------------------ Colours */
 
-.bg-color-navbar-footer {
+.bg-color-navbar-footer{
     background-color: #111111;
 }
 
@@ -53,11 +53,6 @@
     margin: 0;
     padding: 0;
 }
-
-/*.bar-section-padding {
-  margin: -20px;
-  /*padding: 10px;*/
-} 
 
 .separation-padding{
     padding-bottom: 20px;
